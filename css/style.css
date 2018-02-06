@@ -1,0 +1,26 @@
+header{
+  background-color: rgba(0, 0, 0, 0.5);
+  height:50px;
+}
+.headerContainer{
+  display:flex;
+  justify-content: space-around;
+}
+.headerMenu{
+  width:800px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.headerIcons{
+  width:200px;
+  display:flex;
+  justify-content: space-between;
+  margin-top:10px;
+}
+
+a{
+  text-decoration: none;
+}
