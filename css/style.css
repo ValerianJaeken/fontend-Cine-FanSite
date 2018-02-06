@@ -5,6 +5,7 @@ header{
 .headerContainer{
   display:flex;
   justify-content: space-around;
+  background-image: url("");
 }
 .headerMenu{
   width:800px;
