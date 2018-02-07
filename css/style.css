@@ -1,9 +1,9 @@
 /* ===================== START OF THE HEADER ========================  */
 header{
-  height:50px;
   background-image: url("../images/wolverine-background.jpg");
-  height:600px;
+  height: 950px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .headerContainer{
   display:flex;
@@ -34,5 +34,160 @@ a{
 
 
 
-
 /* ============================ END OF THE CAROUSEL =======================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  color: #333;
+  background: #419be0;
+}
+
+.slick-slide {
+  text-align: center;
+  color: #419be0;
+  background: white;
+}
