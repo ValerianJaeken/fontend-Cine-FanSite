@@ -1,11 +1,14 @@
+/* ===================== START OF THE HEADER ========================  */
 header{
-  background-color: rgba(0, 0, 0, 0.5);
   height:50px;
+  background-image: url("../images/wolverine-background.jpg");
+  height:600px;
+  background-size: cover;
 }
 .headerContainer{
   display:flex;
   justify-content: space-around;
-  background-image: url("");
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .headerMenu{
   width:800px;
@@ -25,3 +28,11 @@ header{
 a{
   text-decoration: none;
 }
+/* ========================= END OF THE HEADER ====================  */
+
+/* =========================== START OF THE CAROUSEL =================== */
+
+
+
+
+/* ============================ END OF THE CAROUSEL =======================  */
