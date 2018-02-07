@@ -8,6 +8,7 @@ header{
   background-repeat: no-repeat;
   width:100%;
 }
+
 .headerContainer{
   display:flex;
   justify-content: space-around;
@@ -52,8 +53,15 @@ a{
   width:400px;
   margin:auto;
 }
-
-
 /* ============================ END OF THE CAROUSEL =======================  */
 
+/* =============================== START OF THE DESCRIPTION ================== */
+.card{
+  margin:auto;
+}
+.description h1{
+  text-align: center;
+}
 
+
+/* ========================= END OF THE DESCRIPTION ============================== */
