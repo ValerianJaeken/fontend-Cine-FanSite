@@ -1,16 +1,14 @@
 /* ===================== START OF THE HEADER ========================  */
 header{
   background-image: url("../images/wolverine-background.jpg");
-  height: 950px;
-  background-size: cover;
-  height:1000px;
+  max-height: 900px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .headerContainer{
   display:flex;
   justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .headerMenu{
   width:800px;
@@ -34,170 +32,26 @@ a{
 
 /* =========================== START OF THE CAROUSEL =================== */
 .headerCar{
-  width:85%;
+  width:82%;
+  margin:auto;
+}
+#carCancer{
+  color:white;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+.carPhoto {
+  background-size: cover;
+  padding-bottom: 5%;
+  will-change: transform;
+}
+.headerTitle{
+  width:400px;
+  margin:auto;
+}
 
-}
-.himg{
-  width : 75%;
-  margin: 0px auto;
-}
+
 
 
 
 /* ============================ END OF THE CAROUSEL =======================  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container {
-  margin: 0 auto;
-  padding: 40px;
-  width: 80%;
-  color: #333;
-  background: #419be0;
-}
-
-.slick-slide {
-  text-align: center;
-  color: #419be0;
-  background: white;
-}
