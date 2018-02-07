@@ -2,8 +2,11 @@
 header{
   background-image: url("../images/wolverine-background.jpg");
   height: 950px;
-  background-size: contain;
+  max-height: 900px;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  width:100%;
 }
 .headerContainer{
   display:flex;
@@ -32,19 +35,25 @@ a{
 
 /* =========================== START OF THE CAROUSEL =================== */
 .headerCar{
-  width:85%;
-
+  width:82%;
+  margin:auto;
 }
-.himg{
-  width : 75%;
-  margin: 0px auto;
+#carCancer{
+  color:white;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.4);
 }
-.slick-slide{
-  margin:10px;
+.carPhoto {
+  background-size: cover;
+  padding-bottom: 5%;
+  will-change: transform;
 }
-.slick-slide img{
-  width:100%;
+.headerTitle{
+  width:400px;
+  margin:auto;
 }
 
 
 /* ============================ END OF THE CAROUSEL =======================  */
+
+

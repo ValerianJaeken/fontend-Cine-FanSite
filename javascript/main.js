@@ -9,38 +9,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$(".single-item").slick({
-	dots: true
-$(document).ready(function(){
-  $('.headerCar').slick({
-    
-  });
+$(document).ready(function () {
+$('.headerCar').slick({
+autoplay: true,
+autoplaySpeed: 4000,
 });
-}
+});
