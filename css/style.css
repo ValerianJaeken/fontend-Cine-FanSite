@@ -2,7 +2,8 @@
 header{
   background-image: url("../images/wolverine-background.jpg");
   max-height: 900px;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width:100%;
 }
