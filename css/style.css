@@ -1,19 +1,14 @@
 /* ===================== START OF THE HEADER ========================  */
 header{
   background-image: url("../images/wolverine-background.jpg");
-<<<<<<< HEAD
   height: 950px;
-  background-size: cover;
-=======
-  height:1000px;
   background-size: contain;
->>>>>>> 665226dba1d9cbae638562c3ed37aeb48cbbc5b6
   background-repeat: no-repeat;
 }
 .headerContainer{
   display:flex;
   justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .headerMenu{
   width:800px;
@@ -53,159 +48,3 @@ a{
 
 
 /* ============================ END OF THE CAROUSEL =======================  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container {
-  margin: 0 auto;
-  padding: 40px;
-  width: 80%;
-  color: #333;
-  background: #419be0;
-}
-
-.slick-slide {
-  text-align: center;
-  color: #419be0;
-  background: white;
-}
