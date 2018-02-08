@@ -1,0 +1,98 @@
+main.container {
+  overflow-x: hidden;
+}
+#wrapper {
+  padding-top: 52px;
+}
+.suggestion-search #wrapper {
+  padding-top: 156px;
+}
+#wrapper[data-sr-type*='banner-top'],
+.refinementsNotSticky #wrapper {
+  padding-top: 0;
+}
+@media only screen and (min-width: 1024px) {
+  #wrapper {
+    padding-top: 0 !important;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  #wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  [data-component-name="gridr"].bannerTop {
+    height: auto !important;
+  }
+  [data-component-name="gridr"].bannerTop .overlay-text {
+    vertical-align: middle !important;
+    padding: 40px 70px;
+  }
+  [data-component-name="gridr"].bannerTop .overlay-text:before,
+  [data-component-name="gridr"].bannerTop .overlay-text .text {
+    vertical-align: middle !important;
+  }
+}
+[data-component-name="gridr"].bannerTop .slot {
+  position: static;
+}
+@media only screen and (max-width: 1024px) {
+  [data-component-name="gridr"].bannerTop .slot .overlay-text {
+    position: static;
+  }
+}
+[data-component-name="gridr"].bannerTop:not(.refinementsNotSticky) {
+  padding-bottom: 52px;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="gridr"].bannerTop:not(.refinementsNotSticky) {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="gridr"] > .grid {
+    position: relative;
+  }
+}
+[data-component-name="gridr"] > .grid .module > .rel-wrapper {
+  padding-bottom: 0;
+}
+[data-component-name="gridr"] > .grid .giorgio-armani .heading1,
+[data-component-name="gridr"] > .grid .giorgio-armani .heading2,
+[data-component-name="gridr"] > .grid .giorgio-armani .heading3,
+[data-component-name="gridr"] > .grid .giorgio-armani .heading4 {
+  font-family: "Acta Display W01 Book";
+}
+[data-component-name="gridr"] > .grid .emporio-armani .heading1,
+[data-component-name="gridr"] > .grid .emporio-armani .heading2,
+[data-component-name="gridr"] > .grid .emporio-armani .heading3,
+[data-component-name="gridr"] > .grid .emporio-armani .heading4 {
+  font-family: "Campton-Medium";
+}
+[data-component-name="gridr"] .slot.no-uppercase [class^="heading"] {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="gridr"] .slot.no-uppercase .overlay-text {
+    position: static;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    -webkit-transform: none;
+            transform: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*# sourceMappingURL=search.css.map */

@@ -1,0 +1,66 @@
+[data-component-name="slotDept"] {
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.emporio-armani [data-component-name="slotDept"] {
+  background-color: #292a2e;
+}
+[data-component-name="slotDept"] .cta {
+  margin: 0 0.5rem;
+  background-color: #fff;
+  text-transform: capitalize;
+  display: inline-block;
+}
+[data-component-name="slotDept"] .cta + .cta {
+  margin: 0 0.5rem;
+}
+@media only screen and (min-width: 767px) {
+  [data-component-name="slotDept"] .cta {
+    margin: 0 1rem;
+  }
+  [data-component-name="slotDept"] .cta + .cta {
+    margin: 0 1rem;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  [data-component-name="slotDept"] .cta {
+    min-width: 145px;
+  }
+  [data-component-name="slotDept"] .items {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 0 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  [data-component-name="slotDept"] .items a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  [data-component-name="slotDept"].less-three .items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="slotDept"] {
+    padding: 0 2rem 2rem;
+  }
+  [data-component-name="slotDept"] .cta {
+    margin: 0 1.5rem 1rem;
+  }
+  [data-component-name="slotDept"] .cta + .cta {
+    margin: 0 1.5rem 1rem;
+  }
+}
+
+/*# sourceMappingURL=grid-dept.css.map */

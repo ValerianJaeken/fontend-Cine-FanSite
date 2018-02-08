@@ -1,0 +1,96 @@
+[data-component-name="header-promo"] {
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 35;
+  background-color: #fff;
+  overflow: hidden;
+  color: #181818;
+/*.close
+    position absolute
+    right 0
+    top 0
+    height: 100%
+    width: 30px
+    cursor pointer
+    padding-top 8px
+    padding-left 5px
+    mx-theme-color('brand-two')
+    .icon
+      mx-css-svg($ico-cross-dark,$black, $black, 15px, 15px)
+      .emporio-armani &
+        mx-css-svg($ico-cross-dark,$white, $white, 15px, 15px) */
+}
+.no-promo [data-component-name="header-promo"] {
+  display: none;
+}
+.emporio-armani [data-component-name="header-promo"] {
+  background-color: #292a2e;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="header-promo"] {
+    height: 30px;
+  }
+}
+.emporio-armani [data-component-name="header-promo"] {
+  color: #fff;
+}
+[data-component-name="header-promo"] .promotionList {
+  display: none;
+}
+[data-component-name="header-promo"] .promotionList.no-slick,
+[data-component-name="header-promo"] .promotionList.slick-initialized {
+  display: block;
+}
+[data-component-name="header-promo"] .promotionList .promotionEntry {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+}
+.ie [data-component-name="header-promo"] .promotionList .promotionEntry {
+  height: 30px;
+  min-height: 100%;
+}
+[data-component-name="header-promo"] .promotionList .promotionEntry > div {
+  margin: 0 5px;
+  text-transform: uppercase;
+}
+[data-component-name="header-promo"] .promotionList .promotionEntry > div.additionalDescription,
+[data-component-name="header-promo"] .promotionList .promotionEntry > div.longDescription {
+  border: none;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+[data-component-name="header-promo"] .promotionList .promotionEntry > div.additionalDescription.focusable,
+[data-component-name="header-promo"] .promotionList .promotionEntry > div.longDescription.focusable,
+[data-component-name="header-promo"] .promotionList .promotionEntry > div.additionalDescription:active,
+[data-component-name="header-promo"] .promotionList .promotionEntry > div.longDescription:active,
+[data-component-name="header-promo"] .promotionList .promotionEntry > div.additionalDescription:focus,
+[data-component-name="header-promo"] .promotionList .promotionEntry > div.longDescription:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*# sourceMappingURL=header-promo.css.map */
