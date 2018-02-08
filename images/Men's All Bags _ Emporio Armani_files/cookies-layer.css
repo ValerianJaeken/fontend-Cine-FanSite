@@ -1,0 +1,69 @@
+[data-component-name="cookies-layer"] {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #e5e6ea;
+  z-index: 75;
+}
+[data-component-name="cookies-layer"] .cookieLawWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media only screen and (min-width: 767px) {
+  [data-component-name="cookies-layer"] .cookieLawWrapper .cookieLawContent {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 60%;
+            flex: 1 0 60%;
+    padding-right: 10px;
+  }
+}
+[data-component-name="cookies-layer"] .cookieLaw {
+  font-size: 14px;
+  padding: 40px;
+  color: #776a61;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+[data-component-name="cookies-layer"] .cookieLaw .title {
+  display: none;
+}
+[data-component-name="cookies-layer"] .cookieLaw a {
+  font-family: "AktivGrotesk-Bold";
+}
+[data-component-name="cookies-layer"] .cookieLaw button {
+  background-color: #181818;
+  border-color: #181818;
+  color: #fff;
+  text-transform: none;
+  margin-top: 20px;
+}
+.no-touch [data-component-name="cookies-layer"] .cookieLaw button {
+  -webkit-transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+  transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+}
+.no-touch [data-component-name="cookies-layer"] .cookieLaw button:hover {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+.no-touch [data-component-name="cookies-layer"] .cookieLaw button:active,
+[data-component-name="cookies-layer"] .cookieLaw button:active {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+[data-component-name="cookies-layer"] .cookieLaw button.active {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+@media only screen and (min-width: 767px) {
+  [data-component-name="cookies-layer"] .cookieLaw button {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=cookies-layer.css.map */

@@ -14,6 +14,7 @@ header {
 .headerContainer {
   display: flex;
   justify-content: space-around;
+  align-content: middle;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -28,7 +29,11 @@ header {
   width: 200px;
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
+  margin:10px;
+=======
   margin-top: 10px;
+>>>>>>> f329ea57bd94296a2c61d7a56f687622a0cb4b2e
 }
 
 a {
@@ -103,7 +108,97 @@ a {
   height: 250px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Dayvid's code*/
+#fanshop{
+
+}
+.img-product{
+  margin:20px;
+  border: 1px solid grey;
+}
+.img-product img{
+  width: 100%;
+  height: auto;
+}
+
+.product-row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+#footer{
+  background-color: black;
+}
+
+#footer .row{
+  display: flex;
+  color: #f79526;
+  text-align: center;
+  justify-content:center;
+
+}
+
+#footer-links a{
+  color: #f79526;
+  font-size: 2rem;
+  text-decoration: none;
+  margin: 10px;
+}
+
 /* ========================= END OF THE DESCRIPTION ============================== */
+<<<<<<< HEAD
 /* Start of the Gallery */
 
 * {
@@ -241,3 +336,4 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 /* end of the Gallery */
+=======

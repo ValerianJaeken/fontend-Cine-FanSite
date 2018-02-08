@@ -1,0 +1,63 @@
+[data-component-name="breadcrumbs"] {
+  background-color: #f6f6f6;
+  padding: 16px 30px;
+}
+.emporio-armani [data-component-name="breadcrumbs"] {
+  background-color: #181818;
+}
+[data-component-name="breadcrumbs"] .breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+[data-component-name="breadcrumbs"] .breadcrumbs .crumb.home a {
+  padding: 0;
+}
+[data-component-name="breadcrumbs"] .breadcrumbs .crumb.leaf a {
+  font-family: "AktivGrotesk-Bold";
+}
+[data-component-name="breadcrumbs"] .breadcrumbs .crumb.leaf a:after {
+  content: "";
+  display: none;
+}
+[data-component-name="breadcrumbs"] .breadcrumbs .crumb a {
+  color: #181818;
+  padding: 0 0 0 5px;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0.4px;
+}
+.emporio-armani [data-component-name="breadcrumbs"] .breadcrumbs .crumb a {
+  color: #fff;
+}
+[data-component-name="breadcrumbs"] .breadcrumbs .crumb a .text {
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: border-color 500ms ease;
+  transition: border-color 500ms ease;
+}
+[data-component-name="breadcrumbs"] .breadcrumbs .crumb a[href]:not(.last-crumb-look):hover .text {
+  border-color: #181818;
+}
+.emporio-armani [data-component-name="breadcrumbs"] .breadcrumbs .crumb a[href]:not(.last-crumb-look):hover .text {
+  border-color: #fff;
+}
+[data-component-name="breadcrumbs"] .breadcrumbs .crumb a:after {
+  content: "|";
+  padding-left: 5px;
+}
+[data-component-name="breadcrumbs"] {
+  display: none;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="breadcrumbs"] {
+    display: block;
+  }
+  #lookbook [data-component-name="breadcrumbs"] ul > li:nth-child(2),
+  #item [data-component-name="breadcrumbs"] ul > li:nth-child(2),
+  #search [data-component-name="breadcrumbs"] ul > li:nth-child(2) {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=breadcrumbs.css.map */

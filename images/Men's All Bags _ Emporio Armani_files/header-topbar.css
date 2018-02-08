@@ -1,0 +1,923 @@
+[data-component-name="header-topbar"] .links .links-cyc .content-countries {
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, .25);
+  background: #fff;
+  left: 0;
+  top: 0;
+}
+@media only screen and (min-width: 767px) {
+  [data-component-name="header-topbar"] .links .links-cyc .content-countries {
+    top: 2rem;
+    width: 300px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transition: opacity 500ms ease;
+    transition: opacity 500ms ease;
+  }
+}
+[data-component-name="header-topbar"] .links .links-cyc .content-countries will-change opacity {
+  opacity: 1;
+}
+[data-component-name="header-topbar"] .breadcrumbs ul a,
+[data-component-name="header-topbar"] .tec-menu a,
+[data-component-name="header-topbar"] .menu-home .level-0 li a {
+  text-transform: uppercase;
+  font-family: "AktivGrotesk-Medium";
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #181818;
+}
+.emporio-armani [data-component-name="header-topbar"] .breadcrumbs ul a,
+.emporio-armani [data-component-name="header-topbar"] .tec-menu a,
+.emporio-armani [data-component-name="header-topbar"] .menu-home .level-0 li a {
+  color: #fff;
+}
+[data-component-name="header-topbar"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 64px;
+  margin-top: 0;
+  padding-right: 0.5rem;
+  background-color: #f6f6f6;
+}
+.emporio-armani [data-component-name="header-topbar"] {
+  background-color: #181818;
+}
+@media only screen and (min-width: 375px) {
+  [data-component-name="header-topbar"] {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] {
+    height: 94px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="header-topbar"] {
+    max-width: 1920px;
+    margin: 0 auto;
+    left: 0px;
+    height: 56px;
+  }
+  #home [data-component-name="header-topbar"] {
+    background: transparent;
+  }
+  [data-component-name="header-topbar"] .links-search,
+  [data-component-name="header-topbar"] .header-usermenu {
+    position: relative;
+    z-index: 2;
+    -webkit-transition: -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    will-change: transform;
+  }
+  .macro-marchio.header-collapsed [data-component-name="header-topbar"] .links-search,
+  .macro-marchio.header-collapsed [data-component-name="header-topbar"] .header-usermenu {
+    -webkit-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+            transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transform: translate3d(0, 56px, 0);
+            transform: translate3d(0, 56px, 0);
+  }
+}
+[data-component-name="header-topbar"] .tec-menu,
+[data-component-name="header-topbar"] .menu-home,
+[data-component-name="header-topbar"] .breadcrumbs {
+  display: none;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .tec-menu,
+  [data-component-name="header-topbar"] .menu-home,
+  [data-component-name="header-topbar"] .breadcrumbs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+[data-component-name="header-topbar"] .breadcrumbs ul,
+[data-component-name="header-topbar"] .tec-menu {
+  margin-left: 27px;
+  cursor: pointer;
+}
+[data-component-name="header-topbar"] .breadcrumbs ul:after,
+[data-component-name="header-topbar"] .tec-menu:after {
+  content: '';
+  margin-left: 5px;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .breadcrumbs ul:after,
+  [data-component-name="header-topbar"] .tec-menu:after {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 10px;
+    height: 6px;
+    background-size: 10px 6px;
+    background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/arrow-down-dark.svg");
+    -webkit-transition: -webkit-transform 200ms ease;
+    transition: -webkit-transform 200ms ease;
+    transition: transform 200ms ease;
+    transition: transform 200ms ease, -webkit-transform 200ms ease;
+  }
+  .emporio-armani [data-component-name="header-topbar"] .breadcrumbs ul:after,
+  .emporio-armani [data-component-name="header-topbar"] .tec-menu:after {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 10px;
+    height: 6px;
+    background-size: 10px 6px;
+    background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/arrow-down-light.svg");
+  }
+  [data-component-name="siteHeader"].mainmenu-isOpen [data-component-name="header-topbar"] .breadcrumbs ul:after,
+  [data-component-name="siteHeader"].mainmenu-isOpen [data-component-name="header-topbar"] .tec-menu:after {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .breadcrumbs ul,
+  [data-component-name="header-topbar"] .tec-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+[data-component-name="header-topbar"] .menu-home .image {
+  display: none;
+}
+[data-component-name="header-topbar"] .menu-home .level-0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 10px;
+}
+[data-component-name="header-topbar"] .menu-home .level-0 li {
+  padding: 0 15px;
+}
+[data-component-name="header-topbar"] .menu-home .level-0 li[data-target-parameters="hidden=true"] {
+  display: none;
+}
+[data-component-name="header-topbar"] .menu-home .level-0 li a span {
+  position: relative;
+  -webkit-transition: color 400ms linear;
+  transition: color 400ms linear;
+}
+[data-component-name="header-topbar"] .menu-home .level-0 li a span:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -3px;
+  left: 0;
+  background-color: transparent;
+  -webkit-transition: background-color 400ms linear;
+  transition: background-color 400ms linear;
+}
+@media only screen and (min-width: 1025px) {
+  [data-component-name="header-topbar"] .menu-home .level-0 li a span:hover:after {
+    background-color: #181818;
+  }
+  .emporio-armani [data-component-name="header-topbar"] .menu-home .level-0 li a span:hover:after {
+    background-color: #fff;
+  }
+}
+[data-component-name="header-topbar"] .menu-home .level-0 li a span.red {
+  color: #c3051c;
+}
+[data-component-name="header-topbar"] .menu-home .level-0 li a span.red:hover:after {
+  background-color: #c3051c;
+}
+[data-component-name="header-topbar"] > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+[data-component-name="header-topbar"] > div.menu .ham {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  min-width: 75px;
+  padding: 1rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+[data-component-name="header-topbar"] > div.menu .ham .icon {
+  position: relative;
+}
+[data-component-name="header-topbar"] > div.menu .ham .icon span {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 400ms ease-in-out;
+  transition: 400ms ease-in-out;
+  background-color: #181818;
+}
+.emporio-armani [data-component-name="header-topbar"] > div.menu .ham .icon span {
+  background-color: #fff;
+}
+[data-component-name="header-topbar"] > div.menu .ham .icon span:nth-child(1) {
+  top: 2px;
+}
+[data-component-name="header-topbar"] > div.menu .ham .icon span:nth-child(2),
+[data-component-name="header-topbar"] > div.menu .ham .icon span:nth-child(3) {
+  top: 50%;
+}
+[data-component-name="header-topbar"] > div.menu .ham .icon span:nth-child(4) {
+  top: calc(100% - 3px);
+}
+[data-component-name="siteHeader"].mainmenu-isOpen [data-component-name="header-topbar"] > div.menu .ham .icon span:nth-child(1) {
+  top: 50%;
+  width: 0%;
+  left: 50%;
+}
+[data-component-name="siteHeader"].mainmenu-isOpen [data-component-name="header-topbar"] > div.menu .ham .icon span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+[data-component-name="siteHeader"].mainmenu-isOpen [data-component-name="header-topbar"] > div.menu .ham .icon span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+[data-component-name="siteHeader"].mainmenu-isOpen [data-component-name="header-topbar"] > div.menu .ham .icon span:nth-child(4) {
+  top: 50%;
+  width: 0%;
+  left: 50%;
+}
+[data-component-name="header-topbar"] > div.menu .ham .close {
+  display: none;
+}
+[data-component-name="siteHeader"].mainmenu-isOpen [data-component-name="header-topbar"] > div.menu .ham .close {
+  display: block;
+}
+[data-component-name="header-topbar"] > div.menu .ham .menu {
+  display: block;
+}
+[data-component-name="siteHeader"].mainmenu-isOpen [data-component-name="header-topbar"] > div.menu .ham .menu {
+  display: none;
+}
+[data-component-name="header-topbar"] > div.menu .ham .text {
+  color: #181818;
+  margin-left: 10px;
+}
+.emporio-armani [data-component-name="header-topbar"] > div.menu .ham .text {
+  color: #fff;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] > div.menu .ham .text {
+    margin-left: 20px;
+  }
+}
+[data-component-name="header-topbar"] > div.menu .ham .text,
+[data-component-name="header-topbar"] > div.menu .active-gender .text {
+  font-size: 8px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] > div.menu .ham .text,
+  [data-component-name="header-topbar"] > div.menu .active-gender .text {
+    font-size: 10px;
+  }
+}
+[data-component-name="header-topbar"] > div.menu .search {
+  margin-left: 15px;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] > div.menu .search {
+    margin-left: 35px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="header-topbar"] > div.menu .search {
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] > div.menu .menu .ham .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 21px;
+    height: 14px;
+    background-size: 21px 14px;
+    background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/menu-dark.svg");
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] > div.menu {
+    display: none;
+  }
+}
+[data-component-name="header-topbar"] > div.main-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] > div.main-nav {
+    position: static;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+[data-component-name="header-topbar"] > div.main-nav > .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+[data-component-name="header-topbar"] > div.main-nav > .logo a,
+[data-component-name="header-topbar"] > div.main-nav > .logo span {
+  display: inline-block;
+}
+[data-component-name="header-topbar"] > div.main-nav > .logo svg {
+  display: block;
+}
+[data-component-name="header-topbar"] > div.main-nav > .logo a,
+[data-component-name="header-topbar"] > div.main-nav > .logo span,
+[data-component-name="header-topbar"] > div.main-nav > .logo svg {
+  width: 80px;
+  height: 19px;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] > div.main-nav > .logo a,
+  [data-component-name="header-topbar"] > div.main-nav > .logo span,
+  [data-component-name="header-topbar"] > div.main-nav > .logo svg {
+    width: 124px;
+    height: 30px;
+  }
+}
+[data-component-name="header-topbar"] > div .icon {
+  width: 15px;
+  height: 15px;
+}
+[data-component-name="header-topbar"] > div .icon svg {
+  height: 15px;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] > div .icon {
+    width: 20px;
+    height: 20px;
+  }
+  [data-component-name="header-topbar"] > div .icon svg {
+    height: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="header-topbar"] > div .icon {
+    width: 20px;
+    height: 20px;
+  }
+  [data-component-name="header-topbar"] > div .icon svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+[data-component-name="header-topbar"] > div.links .links-search .icon {
+  width: 15px;
+  height: 15px;
+}
+[data-component-name="header-topbar"] .breadcrumbs {
+  min-width: 130px;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .breadcrumbs {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  [data-component-name="header-topbar"] .breadcrumbs .crumb:nth-child(3)::before {
+    content: '/';
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .emporio-armani [data-component-name="header-topbar"] .breadcrumbs .crumb:nth-child(3)::before {
+    color: #fff;
+  }
+  [data-component-name="header-topbar"] .breadcrumbs .crumb.home {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .ru [data-component-name="header-topbar"] .breadcrumbs .crumb .text {
+    display: inline-block;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: inherit;
+    max-width: 150px;
+  }
+}
+@media only screen and (min-width: 860px) {
+  .ru [data-component-name="header-topbar"] .breadcrumbs .crumb .text {
+    max-width: 300px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .ru [data-component-name="header-topbar"] .breadcrumbs .crumb .text {
+    max-width: 100px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .ru [data-component-name="header-topbar"] .breadcrumbs .crumb .text {
+    max-width: 200px;
+  }
+}
+@media only screen and (min-width: 1367px) {
+  .ru [data-component-name="header-topbar"] .breadcrumbs .crumb .text {
+    max-width: 300px;
+  }
+}
+[data-component-name="header-topbar"] .links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+}
+[data-component-name="header-topbar"] .links a.active {
+  font-family: "AktivGrotesk-Bold";
+  border-color: #181818;
+}
+.emporio-armani [data-component-name="header-topbar"] .links a.active {
+  border-color: #fff;
+}
+[data-component-name="header-topbar"] .links-ccare .text,
+[data-component-name="header-topbar"] .links-cyc .shippingCountry .text,
+[data-component-name="header-topbar"] .links-stores .text {
+  border: none;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+[data-component-name="header-topbar"] .links-ccare .text.focusable,
+[data-component-name="header-topbar"] .links-cyc .shippingCountry .text.focusable,
+[data-component-name="header-topbar"] .links-stores .text.focusable,
+[data-component-name="header-topbar"] .links-ccare .text:active,
+[data-component-name="header-topbar"] .links-cyc .shippingCountry .text:active,
+[data-component-name="header-topbar"] .links-stores .text:active,
+[data-component-name="header-topbar"] .links-ccare .text:focus,
+[data-component-name="header-topbar"] .links-cyc .shippingCountry .text:focus,
+[data-component-name="header-topbar"] .links-stores .text:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+@media only screen and (min-width: 1025px) {
+  [data-component-name="header-topbar"] .links-ccare .text,
+  [data-component-name="header-topbar"] .links-cyc .shippingCountry .text,
+  [data-component-name="header-topbar"] .links-stores .text {
+    clip: auto;
+    clip: rect(auto auto auto auto);
+    position: static;
+    overflow: visible;
+    margin: 0;
+    width: auto;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  [data-component-name="header-topbar"] .links-stores .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/location-dark.svg");
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .emporio-armani [data-component-name="header-topbar"] .links-stores .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/location-light.svg");
+  }
+}
+@media only screen and (min-width: 1025px) {
+  [data-component-name="header-topbar"] .links-stores .icon {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  [data-component-name="header-topbar"] .links-stores .icon.focusable,
+  [data-component-name="header-topbar"] .links-stores .icon:active,
+  [data-component-name="header-topbar"] .links-stores .icon:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}
+.store-locator [data-component-name="header-topbar"] .links-stores {
+  font-family: "AktivGrotesk-Bold";
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  [data-component-name="header-topbar"] .links-ccare .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/phone-dark.svg");
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .emporio-armani [data-component-name="header-topbar"] .links-ccare .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/phone-light.svg");
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .emporio-armani [data-component-name="header-topbar"] .links-ccare .icon {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .emporio-armani [data-component-name="header-topbar"] .links-ccare .icon.focusable,
+  .emporio-armani [data-component-name="header-topbar"] .links-ccare .icon:active,
+  .emporio-armani [data-component-name="header-topbar"] .links-ccare .icon:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  [data-component-name="header-topbar"] .links-cyc .cycOpen .shippingCountry >.icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/delivery-dark.svg");
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .emporio-armani [data-component-name="header-topbar"] .links-cyc .cycOpen .shippingCountry >.icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/delivery-light.svg");
+  }
+}
+@media only screen and (min-width: 1025px) {
+  [data-component-name="header-topbar"] .links-cyc .cycOpen .shippingCountry >.icon {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  [data-component-name="header-topbar"] .links-cyc .cycOpen .shippingCountry >.icon.focusable,
+  [data-component-name="header-topbar"] .links-cyc .cycOpen .shippingCountry >.icon:active,
+  [data-component-name="header-topbar"] .links-cyc .cycOpen .shippingCountry >.icon:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}
+[data-component-name="header-topbar"] .links-cyc .cycOpen .shippingCountry.WX >.text,
+[data-component-name="header-topbar"] .links-cyc .cycOpen .shippingCountry.WY >.text {
+  display: none;
+}
+[data-component-name="header-topbar"] .links-search .text {
+  display: none;
+  margin-right: 7px;
+}
+@media only screen and (min-width: 1366px) {
+  [data-component-name="header-topbar"] .links-search .text {
+    display: block;
+  }
+}
+[data-component-name="header-topbar"] .links-cyc > a,
+[data-component-name="header-topbar"] .links-ccare > a,
+[data-component-name="header-topbar"] .links-stores > a,
+[data-component-name="header-topbar"] .links-search > a {
+  color: #181818;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: border 400ms linear;
+  transition: border 400ms linear;
+  padding: 0.5rem;
+}
+.emporio-armani [data-component-name="header-topbar"] .links-cyc > a,
+.emporio-armani [data-component-name="header-topbar"] .links-ccare > a,
+.emporio-armani [data-component-name="header-topbar"] .links-stores > a,
+.emporio-armani [data-component-name="header-topbar"] .links-search > a {
+  color: #fff;
+}
+@media only screen and (min-width: 375px) {
+  [data-component-name="header-topbar"] .links-cyc > a,
+  [data-component-name="header-topbar"] .links-ccare > a,
+  [data-component-name="header-topbar"] .links-stores > a,
+  [data-component-name="header-topbar"] .links-search > a {
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .links-cyc > a,
+  [data-component-name="header-topbar"] .links-ccare > a,
+  [data-component-name="header-topbar"] .links-stores > a,
+  [data-component-name="header-topbar"] .links-search > a {
+    padding: 0 0 3px;
+  }
+  [data-component-name="header-topbar"] .links-cyc > a:hover,
+  [data-component-name="header-topbar"] .links-ccare > a:hover,
+  [data-component-name="header-topbar"] .links-stores > a:hover,
+  [data-component-name="header-topbar"] .links-search > a:hover {
+    border-color: #181818;
+  }
+  .emporio-armani [data-component-name="header-topbar"] .links-cyc > a:hover,
+  .emporio-armani [data-component-name="header-topbar"] .links-ccare > a:hover,
+  .emporio-armani [data-component-name="header-topbar"] .links-stores > a:hover,
+  .emporio-armani [data-component-name="header-topbar"] .links-search > a:hover {
+    border-color: #fff;
+  }
+}
+[data-component-name="header-topbar"] .links .content-ccare li a {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+[data-component-name="header-topbar"] .links .groupMenu {
+  display: none;
+}
+[data-component-name="header-topbar"] .links .groupMenu > div {
+  float: left;
+  margin-right: 20px;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .links .groupMenu {
+    display: inline-block;
+  }
+}
+[data-component-name="header-topbar"] .links .links-cyc {
+  text-align: center;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .links .links-cyc {
+    position: relative;
+  }
+}
+[data-component-name="header-topbar"] .links .links-cyc .content-countries {
+  border: 0;
+  width: 340px;
+  background: transparent;
+  z-index: 45;
+  position: absolute;
+}
+[data-component-name="header-topbar"] .links .shippingCountry .value {
+  display: none;
+}
+@media only screen and (min-width: 1025px) {
+  [data-component-name="header-topbar"] .links .shippingCountry .value {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  [data-component-name="header-topbar"] .links .shippingCountry {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+[data-component-name="header-topbar"] .links .shippingCountry .text:after {
+  content: ': ';
+}
+[data-component-name="header-topbar"] .links .userSection .account {
+  display: none;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .links .userSection .account {
+    display: block;
+  }
+}
+[data-component-name="header-topbar"] .links .userSection .account a {
+  padding: 0.5rem;
+}
+@media only screen and (min-width: 375px) {
+  [data-component-name="header-topbar"] .links .userSection .account a {
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .links .userSection .account a {
+    padding: 0;
+  }
+}
+[data-component-name="header-topbar"] .links .userSection .minicart a {
+  padding: 0.5rem;
+}
+@media only screen and (min-width: 375px) {
+  [data-component-name="header-topbar"] .links .userSection .minicart a {
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .links .userSection .minicart a {
+    padding: 0;
+    margin-left: 1rem;
+  }
+}
+[data-component-name="header-topbar"] .links .userSection .minicart .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/bag-dark.svg");
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  [data-component-name="header-topbar"] .links .userSection .minicart .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+}
+.emporio-armani [data-component-name="header-topbar"] .links .userSection .minicart .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/bag-light.svg");
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .emporio-armani [data-component-name="header-topbar"] .links .userSection .minicart .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="header-topbar"] .logo {
+    opacity: 1;
+    -webkit-transition: opacity 400ms ease;
+    transition: opacity 400ms ease;
+  }
+}
+[data-component-name="header-topbar"] .logo svg {
+  display: block;
+}
+.emporio-armani [data-component-name="header-topbar"] .logo svg,
+.emporio-armani [data-component-name="header-topbar"] .logo path,
+.emporio-armani [data-component-name="header-topbar"] .logo g {
+  fill: #fff;
+  stroke: #fff;
+}
+@media only screen and (min-width: 1025px) {
+  [data-component-name="header-topbar"] .links-ccare .icon {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="header-topbar"] .links-search {
+    margin-right: 1rem;
+  }
+}
+[data-component-name="header-topbar"] .links-search .icon {
+  position: relative;
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/search-dark.svg");
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  [data-component-name="header-topbar"] .links-search .icon {
+    top: 2px;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+}
+.emporio-armani [data-component-name="header-topbar"] .links-search .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("//media.yoox.biz/ytos/resources/ARMANIGROUP/icons/search-light.svg");
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .emporio-armani [data-component-name="header-topbar"] .links-search .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+}
+
+/*# sourceMappingURL=header-topbar.css.map */

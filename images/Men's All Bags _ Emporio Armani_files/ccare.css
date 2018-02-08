@@ -1,0 +1,150 @@
+[data-component-name="ccare"] h5,
+[data-component-name="ccare"] .title {
+  font-family: "AktivGrotesk-Regular";
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.011em;
+  margin-bottom: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: none;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="ccare"] h5,
+  [data-component-name="ccare"] .title {
+    font-family: "AktivGrotesk-Regular";
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: 0.017em;
+  }
+}
+[data-component-name="ccare"] {
+  max-height: 800px;
+}
+[data-component-name="ccare"] h5 {
+  font-family: "AktivGrotesk-Bold";
+  font-size: 11px;
+  margin: 1rem 25px 0.5rem;
+}
+.links-ccare {
+  position: relative;
+}
+.content-ccare {
+  z-index: 25;
+  position: absolute;
+  width: 200px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 2rem;
+}
+.content-ccare .anim-hidden {
+  opacity: 0;
+}
+.content-ccare .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+[data-component-name="ccare"] {
+  border: 1px solid rgba(0, 0, 0, .25);
+  background: #fff;
+  opacity: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+  height: 100%;
+  padding: 1rem;
+}
+[data-component-name="ccare"] .iconized {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+[data-component-name="ccare"] .phone {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 12px;
+  height: 12px;
+  background-size: 12px 12px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2042%2042%22%3E%3Cpath%20d%3D%22M7.795.013c-.554.055-1.126.27-1.68.656-.656.459-2.099%201.6-3.437%202.886-.67.643-1.294%201.316-1.785%201.968-.49.652-.918%201.232-.892%202.047.025.79.092%203.09%201.758%206.64%201.667%203.548%204.924%208.438%2011.258%2014.773%206.335%206.337%2011.225%209.591%2014.774%2011.258%203.549%201.666%205.823%201.732%206.613%201.758.815.025%201.421-.402%202.073-.892.651-.491%201.326-1.115%201.968-1.785%201.285-1.338%202.428-2.78%202.886-3.437%201.03-1.468.847-3.185-.262-3.963-.723-.506-7.605-5.081-8.607-5.694-.975-.595-2.133-.31-3.175.236-.008.004-.019-.004-.027%200-.87.459-3.243%201.815-3.83%202.152-.433-.272-2.332-1.519-6.43-5.616-4.06-4.06-5.326-5.943-5.616-6.403.327-.571%201.7-3.023%202.152-3.884.552-1.044.838-2.211.21-3.201a361.158%20361.158%200%200%200-2.834-4.356C11.62%203.202%2010.387%201.36%2010.078.93%209.688.391%209.05.071%208.346.013a3.044%203.044%200%200%200-.551%200zm.157%201.705c.083-.004.164-.008.236%200%20.292.035.5.148.525.184.164.227%201.492%202.247%202.782%204.199a709.65%20709.65%200%200%201%202.834%204.303c.075.119.098.79-.289%201.522v.026c-.43.82-2.388%204.252-2.388%204.252l-.236.42.236.42s1.46%202.456%206.14%207.137c4.683%204.681%207.165%206.167%207.165%206.167l.42.236.42-.236s3.43-1.983%204.25-2.415c.728-.384%201.414-.344%201.549-.262.69.422%208.03%205.311%208.502%205.642.087.06.458.724-.157%201.6a32.354%2032.354%200%200%201-2.703%203.255c-.605.63-1.252%201.2-1.785%201.6-.521.393-.966.545-.97.551h-.027c-.821-.026-2.651-.048-5.957-1.6-3.326-1.562-8.068-4.682-14.301-10.917C7.966%2021.57%204.843%2016.827%203.28%2013.501c-1.562-3.327-1.574-5.17-1.6-5.983%200%20.014.15-.465.55-.998.401-.532.972-1.153%201.601-1.758%201.26-1.209%202.739-2.368%203.254-2.729a1.63%201.63%200%200%201%20.866-.315z%22%2F%3E%3C%2Fsvg%3E");
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+[data-component-name="ccare"] .mail {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 12px;
+  height: 12px;
+  background-size: 12px 12px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23000%22%20%20stroke-width%3D%222%22%20stroke-miterlimit%3D%2210%22%3E%3Cpath%20d%3D%22M1%2013h62v37H1z%22%2F%3E%3Cpath%20d%3D%22M1%2013l31%2020%2031-20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+[data-component-name="ccare"] li:first-child {
+  margin-top: 0;
+}
+[data-component-name="ccare"] li:nth-child(2) {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+[data-component-name="ccare"] .title {
+  font-family: "AktivGrotesk-Bold";
+  margin: 0;
+  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 11px;
+  text-align: left;
+  text-transform: uppercase;
+}
+[data-component-name="ccare"] .base {
+  padding: 0 0 0.5rem;
+  margin: 0 0 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .25);
+}
+[data-component-name="ccare"] .close {
+  display: block;
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 10px;
+  height: 10px;
+  background-size: 10px 10px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2038%2038%22%3E%3Cpath%20fill%3D%22%23000%22%20%20d%3D%22M0%201.414l36%2036L37.414%2036l-36-36L0%201.414zM36%200L0%2036l1.414%201.414%2036-36L36%200z%22%2F%3E%3C%2Fsvg%3E");
+  cursor: pointer;
+}
+[data-component-name="ccare"] ul li {
+  margin: 0.5rem 0;
+}
+[data-component-name="ccare"] ul li a:hover {
+  font-family: "AktivGrotesk-Bold";
+}
+
+/*# sourceMappingURL=ccare.css.map */

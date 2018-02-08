@@ -1,0 +1,80 @@
+[data-component-name="search-more-actions"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 1rem 0 2rem;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="search-more-actions"] {
+    padding-top: 2rem;
+  }
+}
+[data-component-name="search-more-actions"] .totalResults,
+[data-component-name="search-more-actions"] .loadedItems {
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+[data-component-name="search-more-actions"] .buttonsRow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+[data-component-name="search-more-actions"] .buttonsRow .loadMoreButton {
+  background-color: transparent;
+  border-color: #181818;
+  color: #181818;
+  text-transform: none;
+  margin-top: 2rem;
+}
+.no-touch [data-component-name="search-more-actions"] .buttonsRow .loadMoreButton {
+  -webkit-transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+  transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+}
+.no-touch [data-component-name="search-more-actions"] .buttonsRow .loadMoreButton:hover {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+.no-touch [data-component-name="search-more-actions"] .buttonsRow .loadMoreButton:active,
+[data-component-name="search-more-actions"] .buttonsRow .loadMoreButton:active {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+[data-component-name="search-more-actions"] .buttonsRow .loadMoreButton.active {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+[data-component-name="search-more-actions"] .buttonsRow .loadMoreButton[disabled] {
+  display: none;
+}
+[data-component-name="search-more-actions"] .buttonsRow [data-component-name="back-to-top"] {
+  right: 10px;
+}
+@media only screen and (max-width: 480px) {
+  [data-component-name="search-more-actions"] .buttonsRow [data-component-name="back-to-top"] {
+    position: absolute;
+    top: 0;
+  }
+}
+@media only screen and (min-width: 767px) {
+  [data-component-name="search-more-actions"] .buttonsRow {
+    position: relative;
+  }
+  [data-component-name="search-more-actions"] .buttonsRow [data-component-name="back-to-top"] {
+    position: absolute;
+  }
+}
+
+/*# sourceMappingURL=search-more-actions.css.map */

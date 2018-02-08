@@ -1,0 +1,675 @@
+[data-component-name="mainmenu"] .main-menu {
+  text-align: center;
+  width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+[data-component-name="mainmenu"] .main-menu > ul > li {
+  border-bottom: 1px solid #f6f6f6;
+  padding: 0;
+}
+[data-component-name="mainmenu"] .main-menu > ul > li:last-child {
+  border-bottom: 0;
+}
+[data-component-name="mainmenu"] .main-menu > ul > li.selected .icon::after {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+[data-component-name="mainmenu"] .main-menu > ul > li > ul {
+  font-family: "AktivGrotesk-Regular";
+  color: #181818;
+  overflow: hidden;
+}
+[data-component-name="mainmenu"] .main-menu > ul > li > ul > li {
+  cursor: default;
+  font-size: 11px;
+  position: relative;
+}
+[data-component-name="mainmenu"] .main-menu > ul > li > ul > li:last-child {
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 767px) {
+  [data-component-name="mainmenu"] .main-menu > ul > li > ul > li:last-child {
+    margin-bottom: 0;
+  }
+}
+[data-component-name="mainmenu"] .level-0 > li > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  cursor: pointer;
+  padding: 20px 0;
+  position: relative;
+}
+[data-component-name="mainmenu"] .level-0 > li > a span:not(.icon) {
+  -webkit-transition: opacity 400ms ease;
+  transition: opacity 400ms ease;
+  width: 100%;
+  color: #181818;
+  letter-spacing: normal;
+  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Bold";
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 20px;
+}
+[data-component-name="mainmenu"] .level-0 > li > a .icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  margin-top: -7.5px;
+}
+[data-component-name="mainmenu"] .level-0 > li > a .icon::before,
+[data-component-name="mainmenu"] .level-0 > li > a .icon::after {
+  content: "";
+  background: #181818;
+  width: 15px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+[data-component-name="mainmenu"] .level-0 > li > a .icon:after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: -webkit-transform 400ms ease;
+  transition: -webkit-transform 400ms ease;
+  transition: transform 400ms ease;
+  transition: transform 400ms ease, -webkit-transform 400ms ease;
+}
+[data-component-name="mainmenu"] .level-0 > li > ul {
+  display: none;
+}
+[data-component-name="mainmenu"] .links-search {
+  max-width: 325px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@media only screen and (min-width: 767px) {
+  [data-component-name="mainmenu"] .links-search {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+[data-component-name="mainmenu"] .links-search label {
+  position: relative;
+}
+[data-component-name="mainmenu"] .links-search .icon {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 14px;
+  height: 17px;
+  background-size: 14px 17px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2043%2044%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22%23000%22%20%3E%3Cpath%20stroke-linecap%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M33%2017c0%208.837-7.163%2016-16%2016S1%2025.837%201%2017%208.163%201%2017%201s16%207.163%2016%2016z%22%2F%3E%3Cpath%20stroke-width%3D%224%22%20d%3D%22M28.229%2029.229L41.5%2042.5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.emporio-armani [data-component-name="mainmenu"] .links-search .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 14px;
+  height: 17px;
+  background-size: 14px 17px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2043%2044%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22%23fff%22%20%3E%3Cpath%20stroke-linecap%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M33%2017c0%208.837-7.163%2016-16%2016S1%2025.837%201%2017%208.163%201%2017%201s16%207.163%2016%2016z%22%2F%3E%3Cpath%20stroke-width%3D%224%22%20d%3D%22M28.229%2029.229L41.5%2042.5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+[data-component-name="mainmenu"] .level-0 > li > a span.text:not(.icon) {
+  text-transform: uppercase;
+  font-family: "AktivGrotesk-Medium";
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #181818;
+}
+.emporio-armani [data-component-name="mainmenu"] .level-0 > li > a span.text:not(.icon) {
+  color: #fff;
+}
+[data-component-name="mainmenu"] .level-1 .menuItem a .text:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -3px;
+  left: 0;
+  background-color: transparent;
+  -webkit-transition: opacity 200ms linear;
+  transition: opacity 200ms linear;
+  will-change: opacity;
+  background-color: #181818;
+}
+.emporio-armani [data-component-name="mainmenu"] .level-1 .menuItem a .text:after {
+  background-color: #fff;
+}
+@media only screen and (max-width: 769px) {
+  html.mainmenu-isOpen {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+  }
+}
+.mainmenu-isOpen body {
+  overflow: hidden;
+}
+@media only screen and (min-width: 769px) {
+  .mainmenu-isOpen body {
+    overflow: auto;
+  }
+}
+[data-component-name="mainmenu"] {
+  width: 95%;
+  position: fixed;
+  z-index: 50;
+  min-height: calc(100vh - 65px);
+  height: calc(100% - 65px);
+  padding-bottom: 64px;
+  left: -95%;
+  background-color: #fff;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 400ms ease;
+  transition: -webkit-transform 400ms ease;
+  transition: transform 400ms ease;
+  transition: transform 400ms ease, -webkit-transform 400ms ease;
+  will-change: transform;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] {
+    position: absolute;
+    left: -1000%;
+    width: 100%;
+    min-height: 0;
+    padding-bottom: 0;
+    height: 265px;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+.emporio-armani [data-component-name="mainmenu"] {
+  background-color: #181818;
+}
+[data-component-name="mainmenu"].isOpen {
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"].isOpen {
+    -webkit-transform: translate3d(1000%, 0, 0);
+            transform: translate3d(1000%, 0, 0);
+  }
+}
+[data-component-name="mainmenu"] .ps-scrollbar-y-rail {
+  visibility: hidden;
+}
+[data-component-name="mainmenu"] .account-menu .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2041%2043%22%3E%3Cpath%20fill%3D%22%23181818%22%20%20d%3D%22M30.293%2031.77l.49.195.502.198c.414.164.722.288%201.026.413%205%202.066%207.475%204.412%207.75%208.973l.063%201.06H0l.064-1.06c.274-4.561%202.758-6.906%207.775-8.972.306-.126.616-.25%201.032-.414l.504-.199c.2-.078.35-.137.493-.195%202.695-1.073%203.878-1.813%204.33-2.865.063-.745.085-1.412.084-2.255a95.676%2095.676%200%200%200-.008-1.248c-.918-.917-1.862-2.864-2.206-4.59-.948-.476-1.628-1.664-1.845-3.471-.122-1.023.153-1.914.65-2.517C8.717%205.865%2011.394.158%2019.968%200c2.344%200%204.193.606%205.167%201.844%203.125.616%204.715%202.948%204.978%206.319.168%202.139-.21%204.602-.834%206.694.48.603.743%201.48.622%202.483-.217%201.806-.896%202.994-1.844%203.47-.338%201.731-1.25%203.67-2.154%204.586l-.003.458-.006.795c0%20.844.021%201.51.084%202.255.452%201.053%201.63%201.793%204.315%202.866zm1.255%202.655a70.906%2070.906%200%200%200-1-.403l-.5-.197-.497-.198c-3.31-1.324-4.805-2.29-5.493-4.141l-.047-.126-.012-.133a26.622%2026.622%200%200%201-.105-2.58c0-.224.002-.386.006-.81.004-.43.005-.646.005-.91v-.604l.534-.281c.457-.24%201.558-2.503%201.73-4.11l.089-.822.824-.068c.061-.005.158-.058.283-.218.247-.314.449-.875.55-1.723.072-.599-.114-.98-.297-1.09l-.682-.414.252-.757c.658-1.98%201.091-4.476.931-6.521-.209-2.678-1.338-4.24-3.708-4.57l-.487-.067-.244-.428C23.249%202.497%2021.92%202%2019.986%202c-7.166.132-9.164%204.697-7.031%2012.905l.187.719-.635.386c-.183.112-.37.493-.298%201.092.102.847.304%201.408.55%201.723.126.16.222.212.283.217l.824.068.088.823c.17%201.59%201.307%203.859%201.782%204.108l.536.281v.605c0%20.261.001.475.005.9.004.43.005.594.005.82.001.953-.026%201.71-.105%202.58l-.012.133-.047.126c-.688%201.851-2.187%202.818-5.51%204.141l-.5.198c-.251.1-.251.1-.503.198-.408.161-.71.282-1.005.403-3.932%201.62-5.898%203.26-6.417%206.183h35.759c-.518-2.925-2.476-4.565-6.394-6.184z%22%2F%3E%3C%2Fsvg%3E");
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .account-menu .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2041%2043%22%3E%3Cpath%20fill%3D%22%23181818%22%20%20d%3D%22M30.293%2031.77l.49.195.502.198c.414.164.722.288%201.026.413%205%202.066%207.475%204.412%207.75%208.973l.063%201.06H0l.064-1.06c.274-4.561%202.758-6.906%207.775-8.972.306-.126.616-.25%201.032-.414l.504-.199c.2-.078.35-.137.493-.195%202.695-1.073%203.878-1.813%204.33-2.865.063-.745.085-1.412.084-2.255a95.676%2095.676%200%200%200-.008-1.248c-.918-.917-1.862-2.864-2.206-4.59-.948-.476-1.628-1.664-1.845-3.471-.122-1.023.153-1.914.65-2.517C8.717%205.865%2011.394.158%2019.968%200c2.344%200%204.193.606%205.167%201.844%203.125.616%204.715%202.948%204.978%206.319.168%202.139-.21%204.602-.834%206.694.48.603.743%201.48.622%202.483-.217%201.806-.896%202.994-1.844%203.47-.338%201.731-1.25%203.67-2.154%204.586l-.003.458-.006.795c0%20.844.021%201.51.084%202.255.452%201.053%201.63%201.793%204.315%202.866zm1.255%202.655a70.906%2070.906%200%200%200-1-.403l-.5-.197-.497-.198c-3.31-1.324-4.805-2.29-5.493-4.141l-.047-.126-.012-.133a26.622%2026.622%200%200%201-.105-2.58c0-.224.002-.386.006-.81.004-.43.005-.646.005-.91v-.604l.534-.281c.457-.24%201.558-2.503%201.73-4.11l.089-.822.824-.068c.061-.005.158-.058.283-.218.247-.314.449-.875.55-1.723.072-.599-.114-.98-.297-1.09l-.682-.414.252-.757c.658-1.98%201.091-4.476.931-6.521-.209-2.678-1.338-4.24-3.708-4.57l-.487-.067-.244-.428C23.249%202.497%2021.92%202%2019.986%202c-7.166.132-9.164%204.697-7.031%2012.905l.187.719-.635.386c-.183.112-.37.493-.298%201.092.102.847.304%201.408.55%201.723.126.16.222.212.283.217l.824.068.088.823c.17%201.59%201.307%203.859%201.782%204.108l.536.281v.605c0%20.261.001.475.005.9.004.43.005.594.005.82.001.953-.026%201.71-.105%202.58l-.012.133-.047.126c-.688%201.851-2.187%202.818-5.51%204.141l-.5.198c-.251.1-.251.1-.503.198-.408.161-.71.282-1.005.403-3.932%201.62-5.898%203.26-6.417%206.183h35.759c-.518-2.925-2.476-4.565-6.394-6.184z%22%2F%3E%3C%2Fsvg%3E");
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="mainmenu"] .account-menu .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2041%2043%22%3E%3Cpath%20fill%3D%22%23181818%22%20%20d%3D%22M30.293%2031.77l.49.195.502.198c.414.164.722.288%201.026.413%205%202.066%207.475%204.412%207.75%208.973l.063%201.06H0l.064-1.06c.274-4.561%202.758-6.906%207.775-8.972.306-.126.616-.25%201.032-.414l.504-.199c.2-.078.35-.137.493-.195%202.695-1.073%203.878-1.813%204.33-2.865.063-.745.085-1.412.084-2.255a95.676%2095.676%200%200%200-.008-1.248c-.918-.917-1.862-2.864-2.206-4.59-.948-.476-1.628-1.664-1.845-3.471-.122-1.023.153-1.914.65-2.517C8.717%205.865%2011.394.158%2019.968%200c2.344%200%204.193.606%205.167%201.844%203.125.616%204.715%202.948%204.978%206.319.168%202.139-.21%204.602-.834%206.694.48.603.743%201.48.622%202.483-.217%201.806-.896%202.994-1.844%203.47-.338%201.731-1.25%203.67-2.154%204.586l-.003.458-.006.795c0%20.844.021%201.51.084%202.255.452%201.053%201.63%201.793%204.315%202.866zm1.255%202.655a70.906%2070.906%200%200%200-1-.403l-.5-.197-.497-.198c-3.31-1.324-4.805-2.29-5.493-4.141l-.047-.126-.012-.133a26.622%2026.622%200%200%201-.105-2.58c0-.224.002-.386.006-.81.004-.43.005-.646.005-.91v-.604l.534-.281c.457-.24%201.558-2.503%201.73-4.11l.089-.822.824-.068c.061-.005.158-.058.283-.218.247-.314.449-.875.55-1.723.072-.599-.114-.98-.297-1.09l-.682-.414.252-.757c.658-1.98%201.091-4.476.931-6.521-.209-2.678-1.338-4.24-3.708-4.57l-.487-.067-.244-.428C23.249%202.497%2021.92%202%2019.986%202c-7.166.132-9.164%204.697-7.031%2012.905l.187.719-.635.386c-.183.112-.37.493-.298%201.092.102.847.304%201.408.55%201.723.126.16.222.212.283.217l.824.068.088.823c.17%201.59%201.307%203.859%201.782%204.108l.536.281v.605c0%20.261.001.475.005.9.004.43.005.594.005.82.001.953-.026%201.71-.105%202.58l-.012.133-.047.126c-.688%201.851-2.187%202.818-5.51%204.141l-.5.198c-.251.1-.251.1-.503.198-.408.161-.71.282-1.005.403-3.932%201.62-5.898%203.26-6.417%206.183h35.759c-.518-2.925-2.476-4.565-6.394-6.184z%22%2F%3E%3C%2Fsvg%3E");
+  }
+}
+.emporio-armani [data-component-name="mainmenu"] .account-menu .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2041%2043%22%3E%3Cpath%20fill%3D%22%23fff%22%20%20d%3D%22M30.293%2031.77l.49.195.502.198c.414.164.722.288%201.026.413%205%202.066%207.475%204.412%207.75%208.973l.063%201.06H0l.064-1.06c.274-4.561%202.758-6.906%207.775-8.972.306-.126.616-.25%201.032-.414l.504-.199c.2-.078.35-.137.493-.195%202.695-1.073%203.878-1.813%204.33-2.865.063-.745.085-1.412.084-2.255a95.676%2095.676%200%200%200-.008-1.248c-.918-.917-1.862-2.864-2.206-4.59-.948-.476-1.628-1.664-1.845-3.471-.122-1.023.153-1.914.65-2.517C8.717%205.865%2011.394.158%2019.968%200c2.344%200%204.193.606%205.167%201.844%203.125.616%204.715%202.948%204.978%206.319.168%202.139-.21%204.602-.834%206.694.48.603.743%201.48.622%202.483-.217%201.806-.896%202.994-1.844%203.47-.338%201.731-1.25%203.67-2.154%204.586l-.003.458-.006.795c0%20.844.021%201.51.084%202.255.452%201.053%201.63%201.793%204.315%202.866zm1.255%202.655a70.906%2070.906%200%200%200-1-.403l-.5-.197-.497-.198c-3.31-1.324-4.805-2.29-5.493-4.141l-.047-.126-.012-.133a26.622%2026.622%200%200%201-.105-2.58c0-.224.002-.386.006-.81.004-.43.005-.646.005-.91v-.604l.534-.281c.457-.24%201.558-2.503%201.73-4.11l.089-.822.824-.068c.061-.005.158-.058.283-.218.247-.314.449-.875.55-1.723.072-.599-.114-.98-.297-1.09l-.682-.414.252-.757c.658-1.98%201.091-4.476.931-6.521-.209-2.678-1.338-4.24-3.708-4.57l-.487-.067-.244-.428C23.249%202.497%2021.92%202%2019.986%202c-7.166.132-9.164%204.697-7.031%2012.905l.187.719-.635.386c-.183.112-.37.493-.298%201.092.102.847.304%201.408.55%201.723.126.16.222.212.283.217l.824.068.088.823c.17%201.59%201.307%203.859%201.782%204.108l.536.281v.605c0%20.261.001.475.005.9.004.43.005.594.005.82.001.953-.026%201.71-.105%202.58l-.012.133-.047.126c-.688%201.851-2.187%202.818-5.51%204.141l-.5.198c-.251.1-.251.1-.503.198-.408.161-.71.282-1.005.403-3.932%201.62-5.898%203.26-6.417%206.183h35.759c-.518-2.925-2.476-4.565-6.394-6.184z%22%2F%3E%3C%2Fsvg%3E");
+}
+@media only screen and (min-width: 769px) {
+  .emporio-armani [data-component-name="mainmenu"] .account-menu .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2041%2043%22%3E%3Cpath%20fill%3D%22%23fff%22%20%20d%3D%22M30.293%2031.77l.49.195.502.198c.414.164.722.288%201.026.413%205%202.066%207.475%204.412%207.75%208.973l.063%201.06H0l.064-1.06c.274-4.561%202.758-6.906%207.775-8.972.306-.126.616-.25%201.032-.414l.504-.199c.2-.078.35-.137.493-.195%202.695-1.073%203.878-1.813%204.33-2.865.063-.745.085-1.412.084-2.255a95.676%2095.676%200%200%200-.008-1.248c-.918-.917-1.862-2.864-2.206-4.59-.948-.476-1.628-1.664-1.845-3.471-.122-1.023.153-1.914.65-2.517C8.717%205.865%2011.394.158%2019.968%200c2.344%200%204.193.606%205.167%201.844%203.125.616%204.715%202.948%204.978%206.319.168%202.139-.21%204.602-.834%206.694.48.603.743%201.48.622%202.483-.217%201.806-.896%202.994-1.844%203.47-.338%201.731-1.25%203.67-2.154%204.586l-.003.458-.006.795c0%20.844.021%201.51.084%202.255.452%201.053%201.63%201.793%204.315%202.866zm1.255%202.655a70.906%2070.906%200%200%200-1-.403l-.5-.197-.497-.198c-3.31-1.324-4.805-2.29-5.493-4.141l-.047-.126-.012-.133a26.622%2026.622%200%200%201-.105-2.58c0-.224.002-.386.006-.81.004-.43.005-.646.005-.91v-.604l.534-.281c.457-.24%201.558-2.503%201.73-4.11l.089-.822.824-.068c.061-.005.158-.058.283-.218.247-.314.449-.875.55-1.723.072-.599-.114-.98-.297-1.09l-.682-.414.252-.757c.658-1.98%201.091-4.476.931-6.521-.209-2.678-1.338-4.24-3.708-4.57l-.487-.067-.244-.428C23.249%202.497%2021.92%202%2019.986%202c-7.166.132-9.164%204.697-7.031%2012.905l.187.719-.635.386c-.183.112-.37.493-.298%201.092.102.847.304%201.408.55%201.723.126.16.222.212.283.217l.824.068.088.823c.17%201.59%201.307%203.859%201.782%204.108l.536.281v.605c0%20.261.001.475.005.9.004.43.005.594.005.82.001.953-.026%201.71-.105%202.58l-.012.133-.047.126c-.688%201.851-2.187%202.818-5.51%204.141l-.5.198c-.251.1-.251.1-.503.198-.408.161-.71.282-1.005.403-3.932%201.62-5.898%203.26-6.417%206.183h35.759c-.518-2.925-2.476-4.565-6.394-6.184z%22%2F%3E%3C%2Fsvg%3E");
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .emporio-armani [data-component-name="mainmenu"] .account-menu .icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2041%2043%22%3E%3Cpath%20fill%3D%22%23fff%22%20%20d%3D%22M30.293%2031.77l.49.195.502.198c.414.164.722.288%201.026.413%205%202.066%207.475%204.412%207.75%208.973l.063%201.06H0l.064-1.06c.274-4.561%202.758-6.906%207.775-8.972.306-.126.616-.25%201.032-.414l.504-.199c.2-.078.35-.137.493-.195%202.695-1.073%203.878-1.813%204.33-2.865.063-.745.085-1.412.084-2.255a95.676%2095.676%200%200%200-.008-1.248c-.918-.917-1.862-2.864-2.206-4.59-.948-.476-1.628-1.664-1.845-3.471-.122-1.023.153-1.914.65-2.517C8.717%205.865%2011.394.158%2019.968%200c2.344%200%204.193.606%205.167%201.844%203.125.616%204.715%202.948%204.978%206.319.168%202.139-.21%204.602-.834%206.694.48.603.743%201.48.622%202.483-.217%201.806-.896%202.994-1.844%203.47-.338%201.731-1.25%203.67-2.154%204.586l-.003.458-.006.795c0%20.844.021%201.51.084%202.255.452%201.053%201.63%201.793%204.315%202.866zm1.255%202.655a70.906%2070.906%200%200%200-1-.403l-.5-.197-.497-.198c-3.31-1.324-4.805-2.29-5.493-4.141l-.047-.126-.012-.133a26.622%2026.622%200%200%201-.105-2.58c0-.224.002-.386.006-.81.004-.43.005-.646.005-.91v-.604l.534-.281c.457-.24%201.558-2.503%201.73-4.11l.089-.822.824-.068c.061-.005.158-.058.283-.218.247-.314.449-.875.55-1.723.072-.599-.114-.98-.297-1.09l-.682-.414.252-.757c.658-1.98%201.091-4.476.931-6.521-.209-2.678-1.338-4.24-3.708-4.57l-.487-.067-.244-.428C23.249%202.497%2021.92%202%2019.986%202c-7.166.132-9.164%204.697-7.031%2012.905l.187.719-.635.386c-.183.112-.37.493-.298%201.092.102.847.304%201.408.55%201.723.126.16.222.212.283.217l.824.068.088.823c.17%201.59%201.307%203.859%201.782%204.108l.536.281v.605c0%20.261.001.475.005.9.004.43.005.594.005.82.001.953-.026%201.71-.105%202.58l-.012.133-.047.126c-.688%201.851-2.187%202.818-5.51%204.141l-.5.198c-.251.1-.251.1-.503.198-.408.161-.71.282-1.005.403-3.932%201.62-5.898%203.26-6.417%206.183h35.759c-.518-2.925-2.476-4.565-6.394-6.184z%22%2F%3E%3C%2Fsvg%3E");
+  }
+}
+[data-component-name="mainmenu"] .level-1:after {
+  content: ' ';
+  height: 20px;
+  width: 100%;
+  display: block;
+}
+[data-component-name="mainmenu"] .level-1 .menuItem a .text {
+  position: relative;
+  -webkit-transition: color 200ms linear;
+  transition: color 200ms linear;
+}
+[data-component-name="mainmenu"] .level-1 .menuItem a .text:after {
+  opacity: 0.001;
+}
+[data-component-name="mainmenu"] .level-1 .menuItem a .text.red:after {
+  background-color: #c3051c;
+}
+.no-touch [data-component-name="mainmenu"] .level-1 .menuItem a:hover .text:after {
+  opacity: 1;
+}
+.touch [data-component-name="mainmenu"] .level-1 .menuItem a:active .text:after {
+  opacity: 1;
+}
+.touch [data-component-name="mainmenu"] .level-1 .menuItem a:active .text.red:after {
+  background-color: #c3051c;
+}
+[data-component-name="mainmenu"] .hasSelectedChild .menuItem.selected .text {
+  position: relative;
+  font-family: "AktivGrotesk-Bold";
+}
+[data-component-name="mainmenu"] .hasSelectedChild .menuItem.selected .text:after {
+  opacity: 1;
+}
+[data-component-name="mainmenu"] .hasSelectedChild .menuItem.selected .text.red {
+  color: #c3051c;
+}
+[data-component-name="mainmenu"] .hasSelectedChild .menuItem.selected .text.red:after {
+  background-color: #c3051c;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .links-search,
+  [data-component-name="mainmenu"] .groupUserMenu,
+  [data-component-name="mainmenu"] footer {
+    display: none;
+  }
+}
+[data-component-name="mainmenu"] .links-search {
+  margin: 0.5rem auto;
+  max-width: 100%;
+  padding: 0 6.5%;
+}
+[data-component-name="mainmenu"] .links-search button {
+  display: none;
+}
+[data-component-name="mainmenu"] .links-search .form {
+  position: relative;
+}
+[data-component-name="mainmenu"] .links-search .form::before {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2043%2044%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22%23181818%22%20%3E%3Cpath%20stroke-linecap%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M33%2017c0%208.837-7.163%2016-16%2016S1%2025.837%201%2017%208.163%201%2017%201s16%207.163%2016%2016z%22%2F%3E%3Cpath%20stroke-width%3D%224%22%20d%3D%22M28.229%2029.229L41.5%2042.5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.emporio-armani [data-component-name="mainmenu"] .links-search .form::before {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2043%2044%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22%23fff%22%20%3E%3Cpath%20stroke-linecap%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M33%2017c0%208.837-7.163%2016-16%2016S1%2025.837%201%2017%208.163%201%2017%201s16%207.163%2016%2016z%22%2F%3E%3Cpath%20stroke-width%3D%224%22%20d%3D%22M28.229%2029.229L41.5%2042.5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+[data-component-name="mainmenu"] #searchInput {
+  border-radius: 0;
+  border-bottom: 1px solid #181818;
+  padding-left: 40px;
+  height: 35px;
+  background-color: transparent;
+}
+[data-component-name="mainmenu"] #searchInput .text {
+  font-size: 13px;
+  position: relative;
+  top: 5px;
+  color: #181818;
+  opacity: 0.5;
+}
+.emporio-armani [data-component-name="mainmenu"] #searchInput .text {
+  color: #fff;
+}
+.emporio-armani [data-component-name="mainmenu"] #searchInput {
+  border-color: #fff;
+}
+[data-component-name="mainmenu"] .groupUserMenu {
+  background-color: #f4f6f8;
+  padding: 15px 7%;
+}
+.emporio-armani [data-component-name="mainmenu"] .groupUserMenu {
+  background-color: #292a2e;
+}
+[data-component-name="mainmenu"] .groupUserMenu > div {
+  margin: 15px auto;
+}
+[data-component-name="mainmenu"] .groupUserMenu > div a {
+  font-size: 12px;
+  color: #181818;
+}
+.emporio-armani [data-component-name="mainmenu"] .groupUserMenu > div a {
+  color: #fff;
+}
+[data-component-name="mainmenu"] .groupUserMenu .links-account {
+  border-bottom: 1px solid #c0b7af;
+  padding-bottom: 1rem;
+}
+[data-component-name="mainmenu"] .groupUserMenu .account-menu,
+[data-component-name="mainmenu"] .groupUserMenu .mainCartLink a,
+[data-component-name="mainmenu"] .groupUserMenu .welcomeMessage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+[data-component-name="mainmenu"] .groupUserMenu .account-menu .text,
+[data-component-name="mainmenu"] .groupUserMenu .mainCartLink a .text,
+[data-component-name="mainmenu"] .groupUserMenu .welcomeMessage .text {
+  margin-left: 10px;
+}
+[data-component-name="mainmenu"] .groupUserMenu .account-menu svg {
+  width: 15px;
+  height: 15px;
+}
+[data-component-name="mainmenu"] .groupUserMenu .account-menu.logged .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2041%2043%22%3E%3Cpath%20fill%3D%22%23181818%22%20%20d%3D%22M30.293%2031.77l.49.195.502.198c.414.164.722.288%201.026.413%205%202.066%207.475%204.412%207.75%208.973l.063%201.06H0l.064-1.06c.274-4.561%202.758-6.906%207.775-8.972.306-.126.616-.25%201.032-.414l.504-.199c.2-.078.35-.137.493-.195%202.695-1.073%203.878-1.813%204.33-2.865.063-.745.085-1.412.084-2.255a95.676%2095.676%200%200%200-.008-1.248c-.918-.917-1.862-2.864-2.206-4.59-.948-.476-1.628-1.664-1.845-3.471-.122-1.023.153-1.914.65-2.517C8.717%205.865%2011.394.158%2019.968%200c2.344%200%204.193.606%205.167%201.844%203.125.616%204.715%202.948%204.978%206.319.168%202.139-.21%204.602-.834%206.694.48.603.743%201.48.622%202.483-.217%201.806-.896%202.994-1.844%203.47-.338%201.731-1.25%203.67-2.154%204.586l-.003.458-.006.795c0%20.844.021%201.51.084%202.255.452%201.053%201.63%201.793%204.315%202.866zm1.255%202.655a70.906%2070.906%200%200%200-1-.403l-.5-.197-.497-.198c-3.31-1.324-4.805-2.29-5.493-4.141l-.047-.126-.012-.133a26.622%2026.622%200%200%201-.105-2.58c0-.224.002-.386.006-.81.004-.43.005-.646.005-.91v-.604l.534-.281c.457-.24%201.558-2.503%201.73-4.11l.089-.822.824-.068c.061-.005.158-.058.283-.218.247-.314.449-.875.55-1.723.072-.599-.114-.98-.297-1.09l-.682-.414.252-.757c.658-1.98%201.091-4.476.931-6.521-.209-2.678-1.338-4.24-3.708-4.57l-.487-.067-.244-.428C23.249%202.497%2021.92%202%2019.986%202c-7.166.132-9.164%204.697-7.031%2012.905l.187.719-.635.386c-.183.112-.37.493-.298%201.092.102.847.304%201.408.55%201.723.126.16.222.212.283.217l.824.068.088.823c.17%201.59%201.307%203.859%201.782%204.108l.536.281v.605c0%20.261.001.475.005.9.004.43.005.594.005.82.001.953-.026%201.71-.105%202.58l-.012.133-.047.126c-.688%201.851-2.187%202.818-5.51%204.141l-.5.198c-.251.1-.251.1-.503.198-.408.161-.71.282-1.005.403-3.932%201.62-5.898%203.26-6.417%206.183h35.759c-.518-2.925-2.476-4.565-6.394-6.184z%22%2F%3E%3C%2Fsvg%3E");
+}
+.emporio-armani [data-component-name="mainmenu"] .groupUserMenu .account-menu.logged .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2041%2043%22%3E%3Cpath%20fill%3D%22%23fff%22%20%20d%3D%22M30.293%2031.77l.49.195.502.198c.414.164.722.288%201.026.413%205%202.066%207.475%204.412%207.75%208.973l.063%201.06H0l.064-1.06c.274-4.561%202.758-6.906%207.775-8.972.306-.126.616-.25%201.032-.414l.504-.199c.2-.078.35-.137.493-.195%202.695-1.073%203.878-1.813%204.33-2.865.063-.745.085-1.412.084-2.255a95.676%2095.676%200%200%200-.008-1.248c-.918-.917-1.862-2.864-2.206-4.59-.948-.476-1.628-1.664-1.845-3.471-.122-1.023.153-1.914.65-2.517C8.717%205.865%2011.394.158%2019.968%200c2.344%200%204.193.606%205.167%201.844%203.125.616%204.715%202.948%204.978%206.319.168%202.139-.21%204.602-.834%206.694.48.603.743%201.48.622%202.483-.217%201.806-.896%202.994-1.844%203.47-.338%201.731-1.25%203.67-2.154%204.586l-.003.458-.006.795c0%20.844.021%201.51.084%202.255.452%201.053%201.63%201.793%204.315%202.866zm1.255%202.655a70.906%2070.906%200%200%200-1-.403l-.5-.197-.497-.198c-3.31-1.324-4.805-2.29-5.493-4.141l-.047-.126-.012-.133a26.622%2026.622%200%200%201-.105-2.58c0-.224.002-.386.006-.81.004-.43.005-.646.005-.91v-.604l.534-.281c.457-.24%201.558-2.503%201.73-4.11l.089-.822.824-.068c.061-.005.158-.058.283-.218.247-.314.449-.875.55-1.723.072-.599-.114-.98-.297-1.09l-.682-.414.252-.757c.658-1.98%201.091-4.476.931-6.521-.209-2.678-1.338-4.24-3.708-4.57l-.487-.067-.244-.428C23.249%202.497%2021.92%202%2019.986%202c-7.166.132-9.164%204.697-7.031%2012.905l.187.719-.635.386c-.183.112-.37.493-.298%201.092.102.847.304%201.408.55%201.723.126.16.222.212.283.217l.824.068.088.823c.17%201.59%201.307%203.859%201.782%204.108l.536.281v.605c0%20.261.001.475.005.9.004.43.005.594.005.82.001.953-.026%201.71-.105%202.58l-.012.133-.047.126c-.688%201.851-2.187%202.818-5.51%204.141l-.5.198c-.251.1-.251.1-.503.198-.408.161-.71.282-1.005.403-3.932%201.62-5.898%203.26-6.417%206.183h35.759c-.518-2.925-2.476-4.565-6.394-6.184z%22%2F%3E%3C%2Fsvg%3E");
+}
+[data-component-name="mainmenu"] .groupUserMenu .emptyWishlist .count,
+[data-component-name="mainmenu"] .groupUserMenu .cartlinkitems0 .count {
+  display: none;
+}
+[data-component-name="mainmenu"] .groupUserMenu .wishlistNotEmpty,
+[data-component-name="mainmenu"] .groupUserMenu .mainCartLink .count {
+  margin-left: 5px;
+}
+[data-component-name="mainmenu"] .groupUserMenu .wishlistNotEmpty::after,
+[data-component-name="mainmenu"] .groupUserMenu .mainCartLink .count::after {
+  content: ' )';
+}
+[data-component-name="mainmenu"] .groupUserMenu .wishlistNotEmpty::before,
+[data-component-name="mainmenu"] .groupUserMenu .mainCartLink .count::before {
+  content: '( ';
+}
+[data-component-name="mainmenu"] .groupUserMenu .cycHint .text:after {
+  content: ': ';
+}
+[data-component-name="mainmenu"] .groupUserMenu .cycHint .value {
+  font-family: "AktivGrotesk-Bold";
+}
+[data-component-name="mainmenu"] .groupUserMenu .cycHint .shippingCountry.WX >.text,
+[data-component-name="mainmenu"] .groupUserMenu .cycHint .shippingCountry.WY >.text {
+  display: none;
+}
+[data-component-name="mainmenu"] .groupUserMenu .mainCartLink a {
+  width: 100%;
+}
+[data-component-name="mainmenu"] .groupUserMenu .mainCartLink a .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2046%2049%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20stroke%3D%22%23181818%22%20%20stroke-linecap%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M6%2013L2%2048h42l-4-35H6zm26%205v-8c0-5-4-9-9-9s-9%204-9%209v8h18z%22%2F%3E%3Cpath%20fill%3D%22%23181818%22%20%20d%3D%22M34%2018a2%202%200%201%201-3.999.001A2%202%200%200%201%2034%2018m-18%200a2%202%200%201%201-3.999.001A2%202%200%200%201%2016%2018%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.emporio-armani [data-component-name="mainmenu"] .groupUserMenu .mainCartLink a .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2046%2049%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20stroke%3D%22%23fff%22%20%20stroke-linecap%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M6%2013L2%2048h42l-4-35H6zm26%205v-8c0-5-4-9-9-9s-9%204-9%209v8h18z%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20%20d%3D%22M34%2018a2%202%200%201%201-3.999.001A2%202%200%200%201%2034%2018m-18%200a2%202%200%201%201-3.999.001A2%202%200%200%201%2016%2018%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+[data-component-name="mainmenu"] .accordion,
+[data-component-name="mainmenu"] .main-menu {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="siteHeader"] [data-component-name="mainmenu"] .main-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+[data-component-name="mainmenu"] .main-menu .level-2 {
+  display: none;
+}
+[data-component-name="mainmenu"] .main-menu a,
+[data-component-name="mainmenu"] .main-menu .text {
+  color: #181818;
+}
+.emporio-armani [data-component-name="mainmenu"] .main-menu a,
+.emporio-armani [data-component-name="mainmenu"] .main-menu .text {
+  color: #fff;
+}
+[data-component-name="mainmenu"] .main-menu a.red,
+[data-component-name="mainmenu"] .main-menu .text.red {
+  color: #c3051c;
+}
+[data-component-name="mainmenu"] .main-menu a.red:hover:after,
+[data-component-name="mainmenu"] .main-menu .text.red:hover:after {
+  background-color: #c3051c;
+}
+[data-component-name="mainmenu"] .main-menu > ul > li:last-child {
+  border-bottom: 0 !important;
+}
+[data-component-name="mainmenu"] ul.breadcrumbs,
+[data-component-name="mainmenu"] .image {
+  border: none;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+[data-component-name="mainmenu"] ul.breadcrumbs.focusable,
+[data-component-name="mainmenu"] .image.focusable,
+[data-component-name="mainmenu"] ul.breadcrumbs:active,
+[data-component-name="mainmenu"] .image:active,
+[data-component-name="mainmenu"] ul.breadcrumbs:focus,
+[data-component-name="mainmenu"] .image:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+[data-component-name="mainmenu"] .level-0 {
+  -webkit-tap-highlight-color: transparent;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+}
+[data-component-name="mainmenu"] .level-0 > li > a span.text:not(.icon) {
+  font-size: 13px;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 > li > a span.text:not(.icon) {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 > li > a span.text:not(.icon).red {
+    color: #c3051c;
+  }
+}
+[data-component-name="mainmenu"] .level-0 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 40px;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    min-height: 0;
+  }
+  [data-component-name="mainmenu"] .level-0 a:not([href]) {
+    pointer-events: none;
+  }
+}
+[data-component-name="mainmenu"] .level-0 a,
+[data-component-name="mainmenu"] .level-0 span {
+  font-size: 13px;
+  line-height: 1.4;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 li.selected > ul {
+    padding: 0;
+    max-height: 100%;
+  }
+}
+[data-component-name="mainmenu"] .level-0 .menuItem {
+  text-align: left;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 .menuItem {
+    padding: 5px 0;
+  }
+}
+[data-component-name="mainmenu"] .level-0 a > .icon {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+[data-component-name="mainmenu"] .level-0 a > .icon:before,
+[data-component-name="mainmenu"] .level-0 a > .icon:after {
+  background-color: #181818;
+}
+.emporio-armani [data-component-name="mainmenu"] .level-0 a > .icon:before,
+.emporio-armani [data-component-name="mainmenu"] .level-0 a > .icon:after {
+  background-color: #fff;
+}
+[data-component-name="mainmenu"] .level-0 > li > a {
+  text-align: left;
+  text-transform: uppercase;
+}
+[data-component-name="mainmenu"] .level-0 > li > a span.text.red:not(.icon) {
+  color: #c3051c;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 > li > a {
+    padding-bottom: 5px;
+    cursor: default;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 > li {
+    margin: 0 3.5rem;
+    border-bottom: 0 !important;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 > li .icon {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 > li > ul {
+    max-height: 100%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="mainmenu"] .level-0 > li > ul {
+    display: block !important;
+    height: auto !important;
+  }
+}
+[data-component-name="mainmenu"] .level-0 [data-target-parameters*=hidden] {
+  display: none;
+}
+
+/*# sourceMappingURL=mainmenu.css.map */
