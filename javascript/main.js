@@ -8,12 +8,10 @@ $('button').click(function(){
 	$('.hidden-product').show();
 	$('button').hide();
 });
-<<<<<<< HEAD
 
 
 });
 
-=======
 function openModal() {
   document.getElementById('myModal').style.display = "block";
 }
@@ -50,4 +48,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
->>>>>>> cee6307d1bcda551103f4557f8e3b76c5f6f8e15
