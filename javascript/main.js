@@ -3,7 +3,15 @@ $(document).ready(function() {
     autoplay: true,
     autoplaySpeed: 4000,
   });
+
+$('button').click(function(){
+	$('.hidden-product').show();
+	$('button').hide();
 });
+
+
+});
+
 function openModal() {
   document.getElementById('myModal').style.display = "block";
 }
