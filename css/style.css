@@ -88,7 +88,7 @@ a {
 
 
 
-.card {
+#descriptionCard {
   margin: auto;
 }
 
@@ -103,3 +103,29 @@ a {
 }
 
 /* ========================= END OF THE DESCRIPTION ============================== */
+
+
+/* =============== START OF RECOMMENDED WORKS ============= */
+#recCard{
+  width:90%;
+  margin:auto;
+}
+#buttonCard{
+  display:flex;
+  justify-content: center;
+}
+#recImg{
+  height:500px;
+}
+
+.recWorks h1{
+  padding-top:15px;
+  font-family:wolfsbane;
+  text-align: center;
+}
+
+
+
+
+
+/* ==================== END OF RECOMMENDED WORKS =============================== */
