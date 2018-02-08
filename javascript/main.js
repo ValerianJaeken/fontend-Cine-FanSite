@@ -1,17 +1,6 @@
-
-
-
-
-
-
-
-
-
-
-
-$(document).ready(function () {
-$('.headerCar').slick({
-autoplay: true,
-autoplaySpeed: 4000,
-});
+$(document).ready(function() {
+  $('.headerCar').slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
+  });
 });
