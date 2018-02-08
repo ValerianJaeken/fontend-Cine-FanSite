@@ -1,81 +1,105 @@
 /* ===================== START OF THE HEADER ========================  */
-header{
+
+header {
   background-image: url("../images/wolverine-background.jpg");
   height: 950px;
   max-height: 900px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width:100%;
+  width: 100%;
 }
 
-.headerContainer{
-  display:flex;
+.headerContainer {
+  display: flex;
   justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.headerMenu{
-  width:800px;
-  display:flex;
+
+.headerMenu {
+  width: 800px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.headerIcons{
-  width:200px;
-  display:flex;
+.headerIcons {
+  width: 200px;
+  display: flex;
   justify-content: space-between;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
-a{
+a {
   text-decoration: none;
 }
+
 /* ========================= END OF THE HEADER ====================  */
 
 /* =========================== START OF THE CAROUSEL =================== */
-.headerCar{
-  width:82%;
-  margin:auto;
+
+.headerCar {
+  width: 82%;
+  margin: auto;
 }
-#carCancer{
-  color:white;
+
+#carCancer {
+  color: white;
   text-align: center;
-  background-color:rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
+
 .carPhoto {
   background-size: cover;
   padding-bottom: 5%;
   will-change: transform;
 }
-.headerTitle{
-  width:400px;
-  margin:auto;
+
+.headerTitle {
+  width: 400px;
+  margin: auto;
 }
+
 /* ============================ END OF THE CAROUSEL =======================  */
 
 /* =============================== START OF THE DESCRIPTION ================== */
+
 @font-face {
-	font-family: 'wolfsbane';
-	src: url('../fonts/wolfsbane2.ttf');
+  font-family: 'wolfsbane';
+  src: url('../fonts/wolfsbane2.ttf');
 }
-.description h1{
-  padding-top:15px;
+
+
+.description {
+  background-image: url("https://i.imgur.com/mj2YtiZ.png");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.description h1 {
+  padding-top: 15px;
   text-align: center;
+  color:white;
+  font-family:wolfsbane;
 }
-.card{
-  margin:auto;
+
+
+
+.card {
+  margin: auto;
 }
-.description p{
+
+.description p {
   text-align: center;
   font-family: wolfsbane;
-  font-size:20px;
+  font-size: 20px;
 }
 
-.card-img{
-  height:250px;
+.card-img {
+  height: 250px;
 }
-
 
 /* ========================= END OF THE DESCRIPTION ============================== */
