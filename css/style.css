@@ -29,7 +29,11 @@ header {
   width: 200px;
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
+  margin:10px;
+=======
   margin-top: 10px;
+>>>>>>> cee6307d1bcda551103f4557f8e3b76c5f6f8e15
 }
 
 a {
@@ -157,15 +161,47 @@ a {
 
 /*Dayvid's code*/
 #fanshop{
+<<<<<<< HEAD
+  background-color: #1d1d1d;
+}
+#fanshop h2{
+  text-align: center;
+  color: #f79526;
+  font-size: 45px;
+  margin: 30px 0px 30px 0px;
+  padding: 15px;
+  background: black;
+}
 
+#fanshop button{
+  display: flex;
+  align-self: center;
+  text-align: center;
+  background-color: #f79526;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  border: none;
+=======
+
+>>>>>>> cee6307d1bcda551103f4557f8e3b76c5f6f8e15
 }
 .img-product{
+  display: flex;
+  flex-direction: column;
   margin:20px;
-  border: 1px solid grey;
+  text-align: center;
+  color: #f79526;
+  background-color: black;
+  justify-content: middle;
 }
+.img-product h5{
+  font-size: 1.7em;
+  }
 .img-product img{
-  width: 100%;
-  height: auto;
+  size: 150%;
+  border-bottom: 1px solid grey;
 }
 
 .product-row{
@@ -173,6 +209,9 @@ a {
   flex-direction: row;
   width: 100%;
   justify-content: center;
+}
+.hidden-product{
+  display: none;
 }
 #footer{
   background-color: black;
@@ -194,6 +233,8 @@ a {
 }
 
 /* ========================= END OF THE DESCRIPTION ============================== */
+<<<<<<< HEAD
+=======
 
 
 /* =============== START OF RECOMMENDED WORKS ============= */
@@ -220,3 +261,4 @@ a {
 
 
 /* ==================== END OF RECOMMENDED WORKS =============================== */
+>>>>>>> cee6307d1bcda551103f4557f8e3b76c5f6f8e15
