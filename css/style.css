@@ -1,3 +1,4 @@
+
 /* ===================== START OF THE HEADER ========================  */
 
 header {
@@ -28,7 +29,11 @@ header {
   width: 200px;
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   margin:10px;
+=======
+  margin-top: 10px;
+>>>>>>> cee6307d1bcda551103f4557f8e3b76c5f6f8e15
 }
 
 a {
@@ -89,7 +94,7 @@ a {
 
 
 
-.card {
+#descriptionCard {
   margin: auto;
 }
 
@@ -156,6 +161,7 @@ a {
 
 /*Dayvid's code*/
 #fanshop{
+<<<<<<< HEAD
   background-color: #1d1d1d;
 }
 #fanshop h2{
@@ -177,6 +183,9 @@ a {
   margin-bottom: 20px;
   color: black;
   border: none;
+=======
+
+>>>>>>> cee6307d1bcda551103f4557f8e3b76c5f6f8e15
 }
 .img-product{
   display: flex;
@@ -224,3 +233,32 @@ a {
 }
 
 /* ========================= END OF THE DESCRIPTION ============================== */
+<<<<<<< HEAD
+=======
+
+
+/* =============== START OF RECOMMENDED WORKS ============= */
+#recCard{
+  width:90%;
+  margin:auto;
+}
+#buttonCard{
+  display:flex;
+  justify-content: center;
+}
+#recImg{
+  height:500px;
+}
+
+.recWorks h1{
+  padding-top:15px;
+  font-family:wolfsbane;
+  text-align: center;
+}
+
+
+
+
+
+/* ==================== END OF RECOMMENDED WORKS =============================== */
+>>>>>>> cee6307d1bcda551103f4557f8e3b76c5f6f8e15
