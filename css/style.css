@@ -3,8 +3,7 @@
 
 header {
   background-image: url("../images/wolverine-background.jpg");
-  height: 950px;
-  max-height: 900px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,11 +28,8 @@ header {
   width: 200px;
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
   margin:10px;
-=======
   margin-top: 10px;
->>>>>>> cee6307d1bcda551103f4557f8e3b76c5f6f8e15
 }
 
 a {
@@ -47,6 +43,7 @@ a {
 .headerCar {
   width: 82%;
   margin: auto;
+  height:500px;
 }
 
 #carCancer {
@@ -57,13 +54,18 @@ a {
 
 .carPhoto {
   background-size: cover;
+  background-position: center;
   padding-bottom: 5%;
+  background-repeat: no-repeat;
   will-change: transform;
 }
 
 .headerTitle {
   width: 400px;
   margin: auto;
+}
+.slick-slide{
+  height:600px;
 }
 
 /* ============================ END OF THE CAROUSEL =======================  */
@@ -108,6 +110,11 @@ a {
   height: 250px;
 }
 
+#fanshop h3{
+  font-family:wolfsbane;
+  text-align:center;
+  padding-top:15px;
+}
 
 <style>
 body {

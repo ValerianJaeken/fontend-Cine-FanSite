@@ -1,3 +1,5 @@
+
+// ========== CAROUSEL =========== 
 $(document).ready(function() {
   $('.headerCar').slick({
     autoplay: true,
