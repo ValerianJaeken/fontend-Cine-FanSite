@@ -56,11 +56,25 @@ a{
 /* ============================ END OF THE CAROUSEL =======================  */
 
 /* =============================== START OF THE DESCRIPTION ================== */
+@font-face {
+	font-family: 'wolfsbane';
+	src: url('../fonts/wolfsbane2.ttf');
+}
+.description h1{
+  padding-top:15px;
+  text-align: center;
+}
 .card{
   margin:auto;
 }
-.description h1{
+.description p{
   text-align: center;
+  font-family: wolfsbane;
+  font-size:20px;
+}
+
+.card-img{
+  height:250px;
 }
 
 
