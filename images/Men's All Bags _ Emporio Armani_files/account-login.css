@@ -1,0 +1,253 @@
+[data-component-name="account-login"] .loginForm #passwordRecoveryLink button {
+  border: none;
+  background: transparent;
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  display: block;
+  width: auto;
+  min-width: auto;
+  margin: 0;
+}
+[data-component-name="account-login"] .loginForm #passwordRecoveryLink button:focus {
+  outline: none;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="account-login"] .register .wrapper-register {
+    min-height: 405px;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="account-login"] .register form {
+    min-height: 405px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="account-login"] .loginForm,
+  [data-component-name="account-login"] .register {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="account-login"] .buttonsRow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+  }
+}
+[data-component-name="account-login"] .buttonsRow button {
+  background-color: #181818;
+  border-color: #181818;
+  color: #fff;
+  text-transform: none;
+}
+.no-touch [data-component-name="account-login"] .buttonsRow button {
+  -webkit-transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+  transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+}
+.no-touch [data-component-name="account-login"] .buttonsRow button:hover {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+.no-touch [data-component-name="account-login"] .buttonsRow button:active,
+[data-component-name="account-login"] .buttonsRow button:active {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+[data-component-name="account-login"] .buttonsRow button.active {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+[data-component-name="account-login"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 2rem;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="account-login"] {
+    margin-top: 4rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="account-login"] .loginForm {
+    min-height: 405px;
+  }
+}
+[data-component-name="account-login"] > div .section-title,
+[data-component-name="account-login"] > div p {
+  text-align: center;
+}
+[data-component-name="account-login"] > div .content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+[data-component-name="account-login"] > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="account-login"] > div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 45%;
+            flex: 1 0 45%;
+    padding: 0 1rem;
+  }
+}
+[data-component-name="account-login"] > div p {
+  padding: 1rem;
+}
+[data-component-name="account-login"] > div p.descr {
+  font-size: 15px;
+}
+[data-component-name="account-login"] .login {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #c0b7af;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="account-login"] .login {
+    border-bottom: 0;
+    border-right: 1px solid #c0b7af;
+    margin-bottom: 0;
+  }
+}
+.login:not(.it) [data-component-name="account-login"] .login .content {
+  margin-top: 1rem;
+}
+[data-component-name="account-login"] .loginForm,
+[data-component-name="account-login"] .advantages {
+  margin: 0 auto;
+}
+[data-component-name="account-login"] .loginForm .fieldRow {
+  max-width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="account-login"] .loginForm {
+    width: 95%;
+  }
+}
+[data-component-name="account-login"] .loginForm #passwordRecoveryLink {
+  text-align: left;
+}
+[data-component-name="account-login"] .loginForm #passwordRecoveryLink .text {
+  text-decoration: underline;
+}
+[data-component-name="account-login"] .loginForm #passwordRecoveryLink .buttonsRow {
+  margin: 2rem auto 0;
+}
+[data-component-name="account-login"] .loginForm #passwordRecoveryLink button {
+  font-family: "AktivGrotesk-Regular";
+  font-size: 14px;
+  line-height: normal;
+  text-transform: none;
+  color: #181818;
+  letter-spacing: 0;
+  display: inline-block;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  text-align: left;
+}
+[data-component-name="account-login"] .loginForm .passwordViewer--button {
+  display: none;
+}
+[data-component-name="account-login"] .advantages {
+  margin: 0 auto 2rem;
+}
+[data-component-name="account-login"] .advantages li {
+  text-align: center;
+  padding: 1.15rem 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+}
+[data-component-name="account-login"] .advantages li > span:last-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 80%;
+          flex: 1 0 80%;
+  text-align: left;
+}
+[data-component-name="account-login"] .advantages li > span:first-child {
+  margin-right: 0.5rem;
+}
+[data-component-name="account-login"] .advantages li > span:first-child.icon {
+  margin-right: 1rem;
+}
+[data-component-name="account-login"] .advantages li:nth-child(1) .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2041%2043%22%3E%3Cpath%20fill%3D%22%23000%22%20%20d%3D%22M30.293%2031.77l.49.195.502.198c.414.164.722.288%201.026.413%205%202.066%207.475%204.412%207.75%208.973l.063%201.06H0l.064-1.06c.274-4.561%202.758-6.906%207.775-8.972.306-.126.616-.25%201.032-.414l.504-.199c.2-.078.35-.137.493-.195%202.695-1.073%203.878-1.813%204.33-2.865.063-.745.085-1.412.084-2.255a95.676%2095.676%200%200%200-.008-1.248c-.918-.917-1.862-2.864-2.206-4.59-.948-.476-1.628-1.664-1.845-3.471-.122-1.023.153-1.914.65-2.517C8.717%205.865%2011.394.158%2019.968%200c2.344%200%204.193.606%205.167%201.844%203.125.616%204.715%202.948%204.978%206.319.168%202.139-.21%204.602-.834%206.694.48.603.743%201.48.622%202.483-.217%201.806-.896%202.994-1.844%203.47-.338%201.731-1.25%203.67-2.154%204.586l-.003.458-.006.795c0%20.844.021%201.51.084%202.255.452%201.053%201.63%201.793%204.315%202.866zm1.255%202.655a70.906%2070.906%200%200%200-1-.403l-.5-.197-.497-.198c-3.31-1.324-4.805-2.29-5.493-4.141l-.047-.126-.012-.133a26.622%2026.622%200%200%201-.105-2.58c0-.224.002-.386.006-.81.004-.43.005-.646.005-.91v-.604l.534-.281c.457-.24%201.558-2.503%201.73-4.11l.089-.822.824-.068c.061-.005.158-.058.283-.218.247-.314.449-.875.55-1.723.072-.599-.114-.98-.297-1.09l-.682-.414.252-.757c.658-1.98%201.091-4.476.931-6.521-.209-2.678-1.338-4.24-3.708-4.57l-.487-.067-.244-.428C23.249%202.497%2021.92%202%2019.986%202c-7.166.132-9.164%204.697-7.031%2012.905l.187.719-.635.386c-.183.112-.37.493-.298%201.092.102.847.304%201.408.55%201.723.126.16.222.212.283.217l.824.068.088.823c.17%201.59%201.307%203.859%201.782%204.108l.536.281v.605c0%20.261.001.475.005.9.004.43.005.594.005.82.001.953-.026%201.71-.105%202.58l-.012.133-.047.126c-.688%201.851-2.187%202.818-5.51%204.141l-.5.198c-.251.1-.251.1-.503.198-.408.161-.71.282-1.005.403-3.932%201.62-5.898%203.26-6.417%206.183h35.759c-.518-2.925-2.476-4.565-6.394-6.184z%22%2F%3E%3C%2Fsvg%3E");
+}
+[data-component-name="account-login"] .advantages li:nth-child(2) .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20511.996%20511.996%22%3E%3Cpath%20d%3D%22M467.01%2065.355c-29.995-29.841-69.299-44.757-108.612-44.757-36.779%200-73.259%2013.594-102.4%2039.714-29.15-26.121-65.621-39.714-102.4-39.714-39.313%200-78.618%2014.916-108.612%2044.757-59.981%2059.674-59.981%20156.433%200%20216.115l211.012%20209.929L467.01%20281.47c59.981-59.682%2059.981-156.433%200-216.115zm-18.091%20198.11L255.998%20455.379%2063.085%20263.456c-49.903-49.655-49.903-130.44%200-180.096%2024.175-24.055%2056.32-37.299%2090.513-37.299%2031.206%200%2060.399%2011.503%2083.695%2031.718l18.705%2017.417%2018.714-17.408c23.296-20.215%2052.489-31.718%2083.695-31.718%2034.193%200%2066.33%2013.244%2090.513%2037.299%2049.911%2049.647%2049.902%20130.44-.001%20180.096z%22%2F%3E%3C%2Fsvg%3E");
+}
+[data-component-name="account-login"] .advantages li:nth-child(3) .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2036%22%3E%3Cpath%20d%3D%22M2.7%200C1.228%200%200%201.228%200%202.7v25.14c0%201.58%201.3%202.88%202.88%202.88h3.93a5.758%205.758%200%200%200%205.67%204.8%205.758%205.758%200%200%200%205.67-4.8h14.58a5.758%205.758%200%200%200%205.67%204.8%205.758%205.758%200%200%200%205.67-4.8h1.05c.8%200%201.5-.36%202.01-.87.51-.51.87-1.21.87-2.01v-9.21c0-1.08-.41-2.068-.78-2.82-.37-.752-.75-1.29-.75-1.29v-.03l-3.93-5.28h-.03v-.03c-.85-1.064-2.217-2.46-4.11-2.46h-7.68c-.343%200-.66.064-.96.18V2.79A2.796%202.796%200%200%200%2026.97%200H2.7zm0%201.92h24.27c.384%200%20.87.486.87.87V28.8h-9.69a5.758%205.758%200%200%200-5.67-4.8%205.758%205.758%200%200%200-5.67%204.8H2.88a.957.957%200%200%201-.96-.96V2.7c0-.448.332-.78.78-.78zm28.02%206.72h3.84v8.64c0%20.8.36%201.5.87%202.01.51.51%201.21.87%202.01.87h8.64v7.68c0%20.16-.12.42-.33.63-.21.21-.47.33-.63.33h-1.05A5.758%205.758%200%200%200%2038.4%2024a5.758%205.758%200%200%200-5.67%204.8h-2.97V9.6c0-.16.12-.42.33-.63.21-.21.47-.33.63-.33zm5.76%200h1.92c.79%200%201.894.889%202.58%201.74l3.93%205.25.03.03c.02.028.278.395.57.99.243.494.371%201.083.45%201.59h-8.52c-.16%200-.42-.12-.63-.33-.21-.21-.33-.47-.33-.63V8.64zm-24%2017.28a3.826%203.826%200%200%201%203.84%203.84%203.826%203.826%200%200%201-3.84%203.84%203.826%203.826%200%200%201-3.84-3.84%203.826%203.826%200%200%201%203.84-3.84zm25.92%200a3.826%203.826%200%200%201%203.84%203.84%203.826%203.826%200%200%201-3.84%203.84%203.826%203.826%200%200%201-3.84-3.84%203.826%203.826%200%200%201%203.84-3.84z%22%2F%3E%3C%2Fsvg%3E");
+}
+[data-component-name="account-login"] .advantages li:nth-child(4) .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2056.452%2056.452%22%3E%3Cpath%20d%3D%22M55.608%203.227a2%202%200%200%200-2.788.476L21.158%2048.402%203.415%2030.656a2%202%200%200%200-2.829%202.828l18.972%2018.975c.142.295.35.562.636.765a1.999%201.999%200%200%200%202.788-.476L56.084%206.016a2.002%202.002%200%200%200-.476-2.789z%22%2F%3E%3C%2Fsvg%3E");
+}
+[data-component-name="account-login"] .buttonsRow {
+  text-align: center;
+  padding-top: 2rem;
+}
+[data-component-name="account-login"] .wrapper-register .buttonsRow {
+  bottom: -16px;
+}
+[data-component-name="account-login"] .captchaBox {
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+/*# sourceMappingURL=account-login.css.map */

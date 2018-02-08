@@ -1,0 +1,2 @@
+"use strict";!function(){var n=!1,o=!1,t=function(){if(n&&o){var t=document.querySelectorAll("[data-component-name='loader']");[].forEach.call(t,function(n){e(n,function(){n.style.zIndex=-1}),n.className=""})}},e=function(n,o){["transitionend","webkitTransitionEnd","oTransitionEnd"].forEach(function(t){return n.addEventListener(t,o,!0)})};setTimeout(function(){var o=document.getElementById("overlay-logo");e(o,function(){n=!0,t()}),o.className+=" animation-logo"},20),window.onload=function(){o=!0,t()}}();
+//# sourceMappingURL=loader.js.map

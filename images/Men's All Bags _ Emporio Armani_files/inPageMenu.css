@@ -1,0 +1,840 @@
+[data-component-name="navigation-menu"] .level-1 > ul > li > a > .text:after,
+[data-component-name="navigation-menu"] .level-1 > ul > li > div > .text:after,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li > a > span:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -3px;
+  left: 0;
+  background-color: transparent;
+  -webkit-transition: opacity 200ms linear;
+  transition: opacity 200ms linear;
+  will-change: opacity;
+  background-color: #181818;
+}
+.emporio-armani [data-component-name="navigation-menu"] .level-1 > ul > li > a > .text:after,
+.emporio-armani [data-component-name="navigation-menu"] .level-1 > ul > li > div > .text:after,
+.emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li > a > span:after {
+  background-color: #fff;
+}
+[data-component-name="navigation-menu"] {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  min-height: 72px;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  will-change: transform;
+/*Regola per posizionamento a sinistra degli elementi li*/
+}
+@media only screen and (min-width: 480px) {
+  [data-component-name="navigation-menu"] {
+    min-height: 87px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  [data-component-name="navigation-menu"] {
+    height: auto;
+    position: relative;
+    z-index: auto;
+  }
+}
+.header-collapsed [data-component-name="navigation-menu"] {
+  -webkit-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+          transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  -webkit-transform: translate3d(0, -72px, 0);
+          transform: translate3d(0, -72px, 0);
+}
+@media only screen and (min-width: 480px) {
+  .header-collapsed [data-component-name="navigation-menu"] {
+    -webkit-transform: translate3d(0, -87px, 0);
+            transform: translate3d(0, -87px, 0);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .header-collapsed [data-component-name="navigation-menu"] {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+[data-component-name="navigation-menu"].no-mh {
+  min-height: 0;
+}
+[data-component-name="navigation-menu"] a,
+[data-component-name="navigation-menu"] span.text {
+  font-size: 13px;
+  color: #181818;
+  line-height: 1.4;
+}
+.emporio-armani [data-component-name="navigation-menu"] a,
+.emporio-armani [data-component-name="navigation-menu"] span.text {
+  color: #fff;
+}
+[data-component-name="navigation-menu"] span.text.red {
+  color: #c3051c;
+}
+[data-component-name="navigation-menu"] span.text.red:hover:after {
+  background-color: #c3051c;
+}
+[data-component-name="navigation-menu"] .icon {
+  display: none;
+}
+[data-component-name="navigation-menu"] .button-hide {
+  background-color: #f6f6f6;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  position: absolute;
+  max-height: 50px;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.001;
+  -webkit-transition: opacity 400ms 0s ease;
+  transition: opacity 400ms 0s ease;
+  will-change: opacity;
+}
+.emporio-armani [data-component-name="navigation-menu"] .button-hide {
+  background-color: #181818;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .button-hide {
+    display: none;
+  }
+}
+[data-component-name="navigation-menu"] .button-hide .text {
+  font-size: 13px;
+  color: #181818;
+}
+.emporio-armani [data-component-name="navigation-menu"] .button-hide .text {
+  color: #fff;
+}
+[data-component-name="navigation-menu"] .button-hide .icon {
+  clip: auto;
+  clip: rect(auto auto auto auto);
+  position: static;
+  overflow: visible;
+  margin: 0;
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 10px;
+  height: 6px;
+  background-size: 10px 6px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2042%2022%22%3E%3Cpath%20fill%3D%22%23181818%22%20d%3D%22M40.293%2021.707a1%201%200%200%200%201.414-1.414l-20-20a1%201%200%200%200-1.414%200l-20%2020a1%201%200%201%200%201.414%201.414L21%202.414l19.293%2019.293z%22%2F%3E%3C%2Fsvg%3E");
+}
+.emporio-armani [data-component-name="navigation-menu"] .button-hide .icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  width: 10px;
+  height: 6px;
+  background-size: 10px 6px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2042%2022%22%3E%3Cpath%20fill%3D%22%23fff%22%20%20d%3D%22M40.293%2021.707a1%201%200%200%200%201.414-1.414l-20-20a1%201%200%200%200-1.414%200l-20%2020a1%201%200%201%200%201.414%201.414L21%202.414l19.293%2019.293z%22%2F%3E%3C%2Fsvg%3E");
+}
+[data-component-name="navigation-menu"] .brands_menu {
+  height: 0;
+  background-color: #fff;
+}
+.emporio-armani [data-component-name="navigation-menu"] .brands_menu {
+  background-color: #292a2e;
+}
+[data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+  content: ' ';
+  position: absolute;
+  z-index: -1;
+  top: 72px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  -webkit-transform: scale3d(1, 0, 1);
+          transform: scale3d(1, 0, 1);
+  -webkit-transition: -webkit-transform 400ms 400ms ease;
+  transition: -webkit-transform 400ms 400ms ease;
+  transition: transform 400ms 400ms ease;
+  transition: transform 400ms 400ms ease, -webkit-transform 400ms 400ms ease;
+  will-change: transform;
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+  height: calc(100vh - 136px);
+}
+.emporio-armani [data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+  background-color: #292a2e;
+}
+.ios [data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+  height: calc(100vh - 210px);
+}
+.landscape [data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+  height: calc(100vh - 151px) !important;
+}
+.promo [data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+  height: calc(100vh - 166px);
+}
+.landscape.promo [data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+  height: calc(100vh - 181px) !important;
+}
+.ios.promo [data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+  height: calc(100vh - 240px);
+}
+@media only screen and (min-width: 480px) {
+  [data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+    top: 87px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+    -webkit-transition: height 400ms 400ms ease;
+    transition: height 400ms 400ms ease;
+    will-change: height;
+    height: 0px;
+  }
+  .promo [data-component-name="navigation-menu"] .brands_menu .navigation-menu-background {
+    height: 0px;
+  }
+}
+[data-component-name="navigation-menu"] .brands_menu .level-1 > ul {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .brands_menu .level-1 > ul {
+    height: 35px !important;
+  }
+}
+[data-component-name="navigation-menu"] .brands_menu .level-3 > ul > li[id^="junior"] > div:first-child > .text {
+  color: #8b8b8b;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+[data-component-name="navigation-menu"] .brands_menu.open-inpagemenu .navigation-menu-background {
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+[data-component-name="navigation-menu"] .brands_menu.open-inpagemenu .button-hide {
+  -webkit-transition-delay: 400ms;
+          transition-delay: 400ms;
+  opacity: 1;
+}
+[data-component-name="navigation-menu"] .container-brand-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f6f6f6;
+  position: relative;
+  z-index: 1;
+  min-height: 73px;
+}
+.emporio-armani [data-component-name="navigation-menu"] .container-brand-menu {
+  background-color: #181818;
+}
+.landscape [data-component-name="navigation-menu"] .container-brand-menu {
+  min-height: 88px;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 {
+  width: 100%;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 37px;
+}
+@media only screen and (min-width: 480px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li > a {
+    height: 52px;
+    padding: 0 30px;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li > a .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li > a img {
+  height: 10px;
+  visibility: hidden;
+}
+@media only screen and (min-width: 480px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li > a img {
+    height: 20px;
+    width: auto;
+  }
+  .ie [data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li > a img {
+    width: 240px;
+  }
+}
+.emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li > a img {
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(invert=100)";
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="1 0" /><feFuncG type="table" tableValues="1 0" /><feFuncB type="table" tableValues="1 0" /></feComponentTransfer></filter></svg>#filter');
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.selected>a,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.hasSelectedChild>a {
+  background-color: #fff;
+}
+.emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.selected>a,
+.emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.hasSelectedChild>a {
+  background-color: #292a2e;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.selected>a .text,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.hasSelectedChild>a .text {
+  display: none;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li:not(.selected):not(.hasSelectedChild).ea-logo {
+  opacity: 0.26;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li:not(.selected):not(.hasSelectedChild).ga-logo {
+  opacity: 0.2;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.selected.ea-logo >a,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.selected.ga-logo >a {
+  cursor: default;
+  pointer-events: none;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.selected.ea-logo >a img,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.ea-logo >a img,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.selected.ga-logo >a img,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.ga-logo >a img {
+  visibility: visible;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.selected.ea-logo,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.ea-logo {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.selected.ga-logo,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.ga-logo {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li:not(.selected):not(.hasSelectedChild) .text,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li:not(.selected):not(.hasSelectedChild) >div {
+  display: none;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.armani_beauty_ > a img {
+  height: 20px;
+}
+@media only screen and (min-width: 480px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 >ul > li.armani_beauty_ > a img {
+    height: 31px;
+  }
+}
+[data-component-name="navigation-menu"] .level-1 > ul > li > a > .text,
+[data-component-name="navigation-menu"] .level-1 > ul > li > div > .text {
+  position: relative;
+  -webkit-transition: color 200ms linear;
+  transition: color 200ms linear;
+}
+[data-component-name="navigation-menu"] .level-1 > ul > li > a > .text:after,
+[data-component-name="navigation-menu"] .level-1 > ul > li > div > .text:after {
+  opacity: 0.001;
+}
+.no-touch [data-component-name="navigation-menu"] .level-1 > ul > li > a:hover > .text.red:after,
+.no-touch [data-component-name="navigation-menu"] .level-1 > ul > li > div:hover > .text.red:after {
+  background-color: #c3051c;
+}
+.no-touch [data-component-name="navigation-menu"] .level-1 > ul > li > a:hover > .text:after,
+.no-touch [data-component-name="navigation-menu"] .level-1 > ul > li > div:hover > .text:after {
+  opacity: 1;
+}
+[data-component-name="navigation-menu"] .level-1 > ul > li > a:active > .text:after,
+[data-component-name="navigation-menu"] .level-1 > ul > li > div:active > .text:after {
+  opacity: 1;
+}
+[data-component-name="navigation-menu"] .level-1 .menuItemSet .selected a {
+  width: auto;
+  padding: 0;
+}
+[data-component-name="navigation-menu"] .level-1 .level-2 {
+  overflow: hidden;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul {
+  margin: 0 auto;
+}
+.mobile:not(.tablet) [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li > .level-1 {
+  position: absolute;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 35px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #fff;
+  border-color: #f6f6f6;
+}
+.emporio-armani.mobile:not(.tablet) [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li > .level-1 {
+  border-color: #181818;
+  background-color: #292a2e;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul {
+  position: absolute;
+  z-index: 0;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  left: 0;
+  width: 100%;
+  right: 0;
+  font-size: 13px;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid;
+  border-color: #f6f6f6;
+  background-color: #fff;
+}
+.emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul {
+  border-color: #181818;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul.moreItems {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    overflow-x: hidden;
+    overflow-x: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow-y: hidden;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul::-webkit-scrollbar-thumb {
+  display: none;
+}
+.emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul {
+  background-color: #292a2e;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul {
+    overflow-x: visible;
+    overflow-x: initial;
+    overflow-y: visible;
+    overflow-y: initial;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li {
+  cursor: default;
+  pointer-events: auto;
+  padding: 0 1rem;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li {
+    padding: 0 2rem;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.hasChildren {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #181818;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.hasChildren {
+  color: #fff;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.hasChildren > div {
+  cursor: pointer;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35px;
+}
+@media only screen and (max-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2[data-parent-id^="junior"] > ul .menuItemSet+.menuItemSet {
+    margin-top: 20px;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding: 15px 5%;
+  top: 72px;
+  cursor: default;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  opacity: 0.001;
+  pointer-events: none;
+  -webkit-transition: opacity 400ms 0s ease;
+  transition: opacity 400ms 0s ease;
+  will-change: opacity;
+  overflow: hidden;
+  height: calc(100vh - 186px);
+}
+.ios [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul {
+  height: calc(100vh - 260px);
+}
+.landscape [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul {
+  height: calc(100vh - 201px) !important;
+}
+.promo [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul {
+  height: calc(100vh - 216px);
+}
+.landscape.promo [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul {
+  height: calc(100vh - 231px) !important;
+}
+.ios.promo [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul {
+  height: calc(100vh - 290px);
+}
+.ie [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li > .level-3 > ul > li > a,
+.edge [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li > .level-3 > ul > li > a,
+.ie [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li > .level-3 > ul > li > .level-4 > ul > li > a,
+.edge [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li > .level-3 > ul > li > .level-4 > ul > li > a {
+  display: none;
+}
+@media only screen and (min-width: 480px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul {
+    top: 87px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .ie [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul,
+  .edge [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul {
+    top: 207px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul {
+    position: absolute;
+    padding: 25px 5%;
+    max-height: none !important;
+    height: auto !important;
+    top: 35px;
+    overflow-y: visible;
+    overflow-y: initial;
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li {
+  display: block;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li {
+    padding: 5px 0;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] {
+  display: none;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"]:last-child {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"]:first-child {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] div,
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] div .text,
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] a .text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: left;
+    margin-top: 10px;
+    font-family: "Acta Display W01 Book";
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.063em;
+    font-size: 16px;
+  }
+  .emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] div .text,
+  .emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] a .text {
+    font-family: "Campton-Medium";
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.063em;
+  }
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] div .image,
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] a .image {
+    clip: auto;
+    clip: rect(auto auto auto auto);
+    position: static;
+    overflow: visible;
+    margin: 0;
+    width: auto;
+    height: auto;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+@media only screen and (min-width: 769px) and (min-width: 769px) and (max-width: 1023px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] {
+    width: 250px;
+  }
+}
+@media only screen and (min-width: 769px) and (min-width: 1024px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] {
+    width: 330px;
+  }
+}
+@media only screen and (min-width: 769px) and (min-width: 1024px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] .text {
+    font-family: "Acta Display W01 Book";
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+  }
+}
+@media only screen and (min-width: 769px) and (min-width: 1024px) {
+  .emporio-armani [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] {
+    font-family: "Campton-Medium";
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.063em;
+  }
+}
+@media only screen and (min-width: 769px) and (min-width: 769px) and (max-width: 1023px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] img {
+    width: 250px;
+  }
+}
+@media only screen and (min-width: 769px) and (min-width: 1024px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul > li[class*="banner"] img {
+    width: 330px;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet {
+  width: 100%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet {
+    margin: 0;
+    text-align: left;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 175px;
+            flex: 0 0 175px;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul {
+  display: block;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li {
+  display: block;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li {
+    padding: 5px 0px;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li > a {
+  position: relative;
+  padding: 10px 0;
+  display: block;
+}
+@media only screen and (min-width: 769px) {
+  [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li > a {
+    display: inline;
+    padding: 0;
+  }
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li > a > span {
+  position: relative;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li > a > span:after {
+  opacity: 0.001;
+}
+.no-touch [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li > a:hover > span:after {
+  opacity: 1;
+}
+.no-touch [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li > a:hover > span.red:after {
+  background-color: #c3051c;
+}
+.touch [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li > a:active > span:after {
+  opacity: 1;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li.selected > a > span {
+  font-family: "AktivGrotesk-Bold";
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li.selected > a > span:after {
+  opacity: 1;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li .level-2 > ul .menuItemSet ul > li.selected > a > span.red:after {
+  background-color: #c3051c;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.hasSelectedChild:not(.isOpen) > div > span.red:after {
+  background-color: #c3051c;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.linked > div > span {
+  font-family: "AktivGrotesk-Bold";
+  letter-spacing: 0;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.linked > div > span:after {
+  opacity: 1;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.linked > div > span.red:after {
+  background-color: #c3051c;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.isOpen .level-2 > ul {
+  z-index: 100;
+  pointer-events: auto;
+  -webkit-transition-delay: 400ms;
+          transition-delay: 400ms;
+  opacity: 1;
+}
+.ie [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.isOpen .level-2 > ul > li > .level-3 > ul > li > a,
+.edge [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.isOpen .level-2 > ul > li > .level-3 > ul > li > a,
+.ie [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.isOpen .level-2 > ul > li > .level-3 > ul > li > .level-4 > ul > li > a,
+.edge [data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.isOpen .level-2 > ul > li > .level-3 > ul > li > .level-4 > ul > li > a {
+  display: inline-block;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li> .level-1> ul > li.isOpen .level-3 li a:hover span.text.red:after {
+  background-color: #c3051c;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li > div > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li > div > ul li:not([class*="banner"]) .image {
+  border: none;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li > div > ul li:not([class*="banner"]) .image.focusable,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li > div > ul li:not([class*="banner"]) .image:active,
+[data-component-name="navigation-menu"] .container-brand-menu .level-0 ul > li > div > ul li:not([class*="banner"]) .image:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+[data-component-name="navigation-menu"] .menuItem [data-target-parameters~='align=left'] {
+  margin-right: auto;
+}
+[data-component-name="navigation-menu"] .menuItem [data-target-parameters*=hidden] {
+  display: none;
+}
+
+/*# sourceMappingURL=inPageMenu.css.map */
