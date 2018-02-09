@@ -3,7 +3,7 @@
 
 header {
   background-image: url("../images/wolverine-background.jpg");
-  height: 900px;
+  height: auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ a {
 /* =========================== START OF THE CAROUSEL =================== */
 
 .headerCar {
-  width: 82%;
+  width: 80%;
   margin: auto;
   height:500px;
 }
@@ -64,9 +64,9 @@ a {
   width: 400px;
   margin: auto;
 }
-.slick-slide{
-  height:600px;
-}
+.slick-slide, .slick-list, .slick-track{
+  height:100%;
+    }
 
 /* ============================ END OF THE CAROUSEL =======================  */
 
