@@ -1,4 +1,3 @@
-
 /* ===================== START OF THE HEADER ========================  */
 
 header {
@@ -28,7 +27,7 @@ header {
   width: 200px;
   display: flex;
   justify-content: space-between;
-  margin:10px;
+  margin: 10px;
   margin-top: 10px;
 }
 
@@ -43,7 +42,7 @@ a {
 .headerCar {
   width: 80%;
   margin: auto;
-  height:500px;
+  height: 500px;
 }
 
 #carCancer {
@@ -63,9 +62,10 @@ a {
   width: 400px;
   margin: auto;
 }
-.slick-slide, .slick-list, .slick-track{
-  height:100%;
-    }
+
+.slick-slide, .slick-list, .slick-track {
+  height: 100%;
+}
 
 /* ============================ END OF THE CAROUSEL =======================  */
 
@@ -75,7 +75,6 @@ a {
   font-family: 'wolfsbane';
   src: url('../fonts/wolfsbane2.ttf');
 }
-
 
 .description {
   background-image: url("https://i.imgur.com/mj2YtiZ.png");
@@ -89,11 +88,9 @@ a {
 .description h1 {
   padding-top: 15px;
   text-align: center;
-  color:white;
-  font-family:wolfsbane;
+  color: white;
+  font-family: wolfsbane;
 }
-
-
 
 #descriptionCard {
   margin: auto;
@@ -101,22 +98,23 @@ a {
 
 .description p {
   text-align: center;
-  font-family: wolfsbane;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.5;
   font-size: 20px;
 }
 
 .card-img {
-  width:100%;
+  width: 100%;
 }
 
-#fanshop h3{
-  font-family:wolfsbane;
-  text-align:center;
-  padding-top:15px;
+#fanshop h3 {
+  font-family: wolfsbane;
+  text-align: center;
+  padding-top: 15px;
 }
 
-<style>
-body {
+<style>body {
   font-family: Verdana, sans-serif;
   margin: 0;
 }
@@ -125,7 +123,7 @@ body {
   box-sizing: border-box;
 }
 
-.row > .column {
+.row>.column {
   padding: 0 8px;
 }
 
@@ -141,6 +139,7 @@ body {
 }
 
 /* The Modal (background) */
+
 .modal {
   display: none;
   position: fixed;
@@ -155,6 +154,7 @@ body {
 }
 
 /* Modal Content */
+
 .modal-content {
   position: relative;
   background-color: #fefefe;
@@ -165,6 +165,7 @@ body {
 }
 
 /* The Close Button */
+
 .close {
   color: white;
   position: absolute;
@@ -174,8 +175,7 @@ body {
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
@@ -190,8 +190,8 @@ body {
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -208,18 +208,20 @@ body {
 }
 
 /* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+
+.prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text (1/3 etc) */
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -243,8 +245,7 @@ img {
   opacity: 0.6;
 }
 
-.active,
-.demo:hover {
+.active, .demo:hover {
   opacity: 1;
 }
 
@@ -255,62 +256,15 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Dayvid's code*/
-#fanshop{
-<<<<<<< HEAD
-  background-color: #1d1d1d;
+
+#fanshop {
+  <<<<<<< HEAD background-color: #1d1d1d;
 }
-#fanshop h2{
+
+#fanshop h2 {
   text-align: center;
   color: #f79526;
   font-size: 45px;
@@ -319,7 +273,7 @@ img.hover-shadow {
   background: black;
 }
 
-#fanshop button{
+#fanshop button {
   display: flex;
   align-self: center;
   text-align: center;
@@ -329,48 +283,51 @@ img.hover-shadow {
   margin-bottom: 20px;
   color: black;
   border: none;
-=======
-
+  =======
 }
-.img-product{
+
+.img-product {
   display: flex;
   flex-direction: column;
-  margin:20px;
+  margin: 20px;
   text-align: center;
   color: #f79526;
   background-color: black;
   justify-content: middle;
 }
-.img-product h5{
+
+.img-product h5 {
   font-size: 1.7em;
-  }
-.img-product img{
+}
+
+.img-product img {
   size: 150%;
   border-bottom: 1px solid grey;
 }
 
-.product-row{
+.product-row {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: center;
 }
-.hidden-product{
+
+.hidden-product {
   display: none;
 }
-#footer{
+
+#footer {
   background-color: black;
 }
 
-#footer .row{
+#footer .row {
   display: flex;
   color: #f79526;
   text-align: center;
-  justify-content:center;
-
+  justify-content: center;
 }
 
-#footer-links a{
+#footer-links a {
   color: #f79526;
   font-size: 2rem;
   text-decoration: none;
@@ -379,28 +336,26 @@ img.hover-shadow {
 
 /* ========================= END OF THE DESCRIPTION ============================== */
 
-
 /* =============== START OF RECOMMENDED WORKS ============= */
-#recCard{
-  width:70%;
-  margin:auto;
+
+#recCard {
+  width: 70%;
+  margin: auto;
 }
-#buttonCard{
-  display:flex;
+
+#buttonCard {
+  display: flex;
   justify-content: center;
 }
-#recImg{
-  height:500px;
+
+#recImg {
+  height: 500px;
 }
 
-.recWorks h1{
-  padding-top:15px;
-  font-family:wolfsbane;
+.recWorks h1 {
+  padding-top: 15px;
+  font-family: wolfsbane;
   text-align: center;
 }
-
-
-
-
 
 /* ==================== END OF RECOMMENDED WORKS =============================== */
