@@ -10,21 +10,21 @@ header {
 }
 
 .headerContainer {
+  width:100%;
   display: flex;
   justify-content: space-around;
-  align-content: middle;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .headerMenu {
-  width: 800px;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .headerIcons {
-  width: 200px;
+  width: 12%;
   display: flex;
   justify-content: space-between;
   margin: 10px;
@@ -33,6 +33,20 @@ header {
 
 a {
   text-decoration: none;
+  display:flex;
+
+}
+
+@media(max-width:700px){
+  .headerMenu{
+    display:inline-block;
+  }
+  .headerIcons{
+    display:inline-block;
+  }
+  .headerTitle img{
+    width:200px;
+  }
 }
 
 /* ========================= END OF THE HEADER ====================  */
