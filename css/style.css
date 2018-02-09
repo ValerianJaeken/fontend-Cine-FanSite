@@ -55,7 +55,6 @@ a {
 .carPhoto {
   background-size: cover;
   background-position: center;
-  padding-bottom: 5%;
   background-repeat: no-repeat;
   will-change: transform;
 }
@@ -107,7 +106,7 @@ a {
 }
 
 .card-img {
-  height: 250px;
+  width:100%;
 }
 
 #fanshop h3{
